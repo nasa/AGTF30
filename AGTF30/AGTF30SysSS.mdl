@@ -1,0 +1,4527 @@
+Model {
+  Name			  "AGTF30SysSS"
+  Version		  8.5
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.146"
+    NumModelReferences	    1
+    ModelReference {
+      ModelRefBlockPath	      "AGTF30SysSS/Engine Model|AGTF30_eng"
+    }
+    NumTestPointedSignals   0
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  on
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [308.0, 183.0, 1486.0, 764.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1436.0, 590.0]
+	ZoomFactor		[0.77011494252873558]
+	Offset			[-28.529850746268721, 278.820895522388]
+      }
+    }
+  }
+  Created		  "Thu Jun 25 12:19:41 2015"
+  Creator		  "jwchapm2"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "jwchapm2"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Thu Mar 15 10:09:41 2018"
+  RTWModifiedTimeStamp	  397735186
+  ModelVersionFormat	  "1.%<AutoIncrement:146>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  on
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    6
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "SS_N3"
+    overrideMode_	    [0U]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "SS_N3"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  on
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  CovUseTimeInterval	  off
+  CovStartTime		  0
+  CovStopTime		  0
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      7
+      Version		      "1.15.0"
+      Array {
+	Type			"Handle"
+	Dimension		8
+	Simulink.SolverCC {
+	  $ObjectID		  8
+	  Version		  "1.15.0"
+	  StartTime		  "0.0"
+	  StopTime		  "MWS.In.Max_IterSS"
+	  AbsTol		  "auto"
+	  FixedStep		  "1"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  9
+	  Version		  "1.15.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  10
+	  Version		  "1.15.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  11
+	  Version		  "1.15.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  IntegerSaturationMsg	  "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  12
+	  Version		  "1.15.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  13
+	  Version		  "1.15.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  14
+	  Version		  "1.15.0"
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  15
+	  Version		  "1.15.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      16
+	      Version		      "1.15.0"
+	      Array {
+		Type			"Cell"
+		Dimension		24
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"ParameterTuningSideEffectCode"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      17
+	      Version		      "1.15.0"
+	      Array {
+		Type			"Cell"
+		Dimension		13
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      GenerateSharedConstants on
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 258, 90, 1342, 735 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    7
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    18
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      BusCreator
+      Inputs		      "4"
+      DisplayOption	      "none"
+      OutDataTypeStr	      "Inherit: auto"
+      NonVirtualBus	      off
+      InheritFromInputs	      on
+    }
+    Block {
+      BlockType		      BusSelector
+      OutputSignals	      "signal1,signal2,signal3"
+      OutputAsBus	      off
+    }
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      From
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      ModelReference
+      ModelNameDialog	      "<Enter Model Name>"
+      SimulationMode	      "Accelerator"
+      CodeInterface	      "Model reference"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      CopyOfModelProtected    off
+      DefaultDataLogging      off
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      SignalConversion
+      ConversionOutput	      "Signal copy"
+      OutDataTypeStr	      "Inherit: auto"
+      OverrideOpt	      off
+    }
+    Block {
+      BlockType		      Stop
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      VariableName	      "simulink_output"
+      MaxDataPoints	      "1000"
+      Decimation	      "1"
+      SaveFormat	      "Array"
+      Save2DSignal	      "Inherit from input (this choice will be removed - see release notes)"
+      FixptAsFi		      off
+      NumInputs		      "1"
+      SampleTime	      "0"
+    }
+  }
+  System {
+    Name		    "AGTF30SysSS"
+    Location		    [308, 183, 1794, 947]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "77"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "374"
+    Block {
+      BlockType		      BusSelector
+      Name		      "Bus\nSelector"
+      SID		      "12"
+      Ports		      [1, 1]
+      Position		      [680, 754, 685, 786]
+      ZOrder		      815
+      BlockMirror	      on
+      ShowName		      off
+      OutputSignals	      "Converged"
+      Port {
+	PortNumber		1
+	Name			"<Converged>"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "11"
+      Position		      [905, 715, 935, 745]
+      ZOrder		      814
+      BlockMirror	      on
+      ShowName		      off
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux"
+      SID		      "9"
+      Ports		      [1, 5]
+      Position		      [655, 502, 660, 718]
+      ZOrder		      812
+      ShowName		      off
+      Outputs		      "[7 2 1 1 1]"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "DepFormat"
+      SID		      "113"
+      Ports		      [4, 1]
+      Position		      [1000, 408, 1110, 587]
+      ZOrder		      915
+      RequestExecContextInheritance off
+      System {
+	Name			"DepFormat"
+	Location		[308, 183, 1794, 947]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"163"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Inputs"
+	  SID			  "332"
+	  Position		  [80, 248, 110, 262]
+	  ZOrder		  964
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "EngOrg"
+	  SID			  "116"
+	  Position		  [80, 158, 110, 172]
+	  ZOrder		  916
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Ndot_Vec"
+	  SID			  "114"
+	  Position		  [80, 98, 110, 112]
+	  ZOrder		  914
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Dep_Vec"
+	  SID			  "115"
+	  Position		  [80, 53, 110, 67]
+	  ZOrder		  915
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Corrected Speed Error Term"
+	  SID			  "333"
+	  Ports			  [1, 1]
+	  Position		  [235, 147, 345, 183]
+	  ZOrder		  965
+	  RequestExecContextInheritance	off
+	  Port {
+	    PortNumber		    1
+	    Name		    "Nc1_Er"
+	    PropagatedSignals	    "NcEr"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  System {
+	    Name		    "Corrected Speed Error Term"
+	    Location		    [1836, 234, 3322, 998]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "125"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "EngBus"
+	      SID		      "334"
+	      Position		      [20, 133, 50, 147]
+	      ZOrder		      929
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector"
+	      SID		      "118"
+	      Ports		      [1, 1]
+	      Position		      [145, 127, 150, 153]
+	      ZOrder		      918
+	      ShowName		      off
+	      OutputSignals	      "Data.FAN_Data.Nc"
+	      Port {
+		PortNumber		1
+		Name			"<Nc>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Nc1 Set Point"
+	      SID		      "263"
+	      Position		      [60, 202, 175, 218]
+	      ZOrder		      927
+	      Value		      "MWS.In.ssNc1"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      SID		      "108"
+	      Ports		      [2, 1]
+	      Position		      [280, 130, 300, 150]
+	      ZOrder		      913
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	      Port {
+		PortNumber		1
+		Name			"NcEr"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "NcEr"
+	      SID		      "335"
+	      Position		      [370, 133, 400, 147]
+	      ZOrder		      930
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      558
+	      SrcBlock		      "Nc1 Set Point"
+	      SrcPort		      1
+	      Points		      [110, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      Name		      "<Nc>"
+	      ZOrder		      555
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      552
+	      SrcBlock		      "EngBus"
+	      SrcPort		      1
+	      DstBlock		      "Bus\nSelector"
+	      DstPort		      1
+	    }
+	    Line {
+	      Name		      "NcEr"
+	      ZOrder		      553
+	      Labels		      [-1, 0]
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "NcEr"
+	      DstPort		      1
+	    }
+	    Annotation {
+	      SID		      "261"
+	      Name		      "Error in corrected speed vs Set Point "
+	      Position		      [145, 87, 320, 102]
+	      InternalMargins	      [0, 0, 0, 0]
+	      FixedHeight	      off
+	      FixedWidth	      off
+	      HorizontalAlignment     "left"
+	      VerticalAlignment	      "top"
+	      ZOrder		      -1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux"
+	  SID			  "10"
+	  Ports			  [2, 1]
+	  Position		  [135, 37, 140, 128]
+	  ZOrder		  813
+	  ShowName		  off
+	  Inputs		  "2"
+	  DisplayOption		  "bar"
+	  Port {
+	    PortNumber		    1
+	    Name		    "EngEr"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux2"
+	  SID			  "103"
+	  Ports			  [4, 1]
+	  Position		  [435, 45, 440, 365]
+	  ZOrder		  908
+	  ShowName		  off
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "VAFN Error Term"
+	  SID			  "363"
+	  Ports			  [2, 1]
+	  Position		  [240, 307, 345, 343]
+	  ZOrder		  1085
+	  RequestExecContextInheritance	off
+	  Port {
+	    PortNumber		    1
+	    Name		    "VAFN_Er"
+	    PropagatedSignals	    "VBV_Er"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  System {
+	    Name		    "VAFN Error Term"
+	    Location		    [1690, 226, 3176, 990]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "175"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "EngBus"
+	      SID		      "364"
+	      Position		      [20, 298, 50, 312]
+	      ZOrder		      1087
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "InputBus"
+	      SID		      "365"
+	      Position		      [70, 323, 100, 337]
+	      ZOrder		      1085
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector"
+	      SID		      "366"
+	      Ports		      [1, 1]
+	      Position		      [355, 292, 360, 318]
+	      ZOrder		      1073
+	      ShowName		      off
+	      OutputSignals	      "Data.FAN_Data.Nc"
+	      Port {
+		PortNumber		1
+		Name			"<Nc>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector1"
+	      SID		      "367"
+	      Ports		      [1, 1]
+	      Position		      [340, 319, 345, 341]
+	      ZOrder		      1081
+	      ShowName		      off
+	      OutputSignals	      "MN"
+	      Port {
+		PortNumber		1
+		Name			"<MN>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector2"
+	      SID		      "368"
+	      Ports		      [1, 1]
+	      Position		      [340, 439, 345, 461]
+	      ZOrder		      1082
+	      ShowName		      off
+	      OutputSignals	      "VAFN"
+	      Port {
+		PortNumber		1
+		Name			"<VAFN>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "369"
+	      Ports		      [2, 1]
+	      Position		      [615, 335, 635, 355]
+	      ZOrder		      1083
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	      Port {
+		PortNumber		1
+		Name			"VAFN_Er"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Tstd1"
+	      SID		      "370"
+	      Position		      [215, 372, 310, 388]
+	      ZOrder		      1078
+	      ShowName		      off
+	      Value		      "MWS.In.VAFNIC"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Tstd2"
+	      SID		      "371"
+	      Position		      [215, 347, 330, 363]
+	      ZOrder		      1079
+	      ShowName		      off
+	      Value		      "MWS.In.VAFNManEn"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "VAFN Set Point Calculation (Tbl)"
+	      SID		      "374"
+	      Ports		      [4, 1]
+	      Position		      [400, 287, 560, 398]
+	      ZOrder		      1088
+	      LibraryVersion	      "1.349"
+	      SourceBlock	      "Lib_Cntrl_SetPoint_TMATS/Set Point Calculation (Tbl)"
+	      SourceType	      "T-MATS: Set Point Calculation (Tbl)"
+	      ContentPreviewEnabled   off
+	      ERVec_M		      "MWS.Cntrl.VAFN_Nc1"
+	      DSVec_M		      "MWS.Cntrl.VAFN_MN"
+	      SPArray_M		      "MWS.Cntrl.VAFN_sch"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "VAFNEr"
+	      SID		      "373"
+	      Position		      [700, 338, 730, 352]
+	      ZOrder		      1086
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      Name		      "<VAFN>"
+	      ZOrder		      1
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector2"
+	      SrcPort		      1
+	      Points		      [275, 0]
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "InputBus"
+	      SrcPort		      1
+	      Points		      [100, 0]
+	      Branch {
+		ZOrder			3
+		DstBlock		"Bus\nSelector1"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			4
+		Points			[0, 120]
+		DstBlock		"Bus\nSelector2"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      Name		      "VAFN_Er"
+	      ZOrder		      5
+	      Labels		      [-1, 0]
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      DstBlock		      "VAFNEr"
+	      DstPort		      1
+	    }
+	    Line {
+	      Name		      "<Nc>"
+	      ZOrder		      15
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector"
+	      SrcPort		      1
+	      DstBlock		      "VAFN Set Point Calculation (Tbl)"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Tstd1"
+	      SrcPort		      1
+	      DstBlock		      "VAFN Set Point Calculation (Tbl)"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Tstd2"
+	      SrcPort		      1
+	      DstBlock		      "VAFN Set Point Calculation (Tbl)"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "VAFN Set Point Calculation (Tbl)"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "EngBus"
+	      SrcPort		      1
+	      DstBlock		      "Bus\nSelector"
+	      DstPort		      1
+	    }
+	    Line {
+	      Name		      "<MN>"
+	      ZOrder		      16
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector1"
+	      SrcPort		      1
+	      DstBlock		      "VAFN Set Point Calculation (Tbl)"
+	      DstPort		      2
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "VBV Error Term"
+	  SID			  "358"
+	  Ports			  [2, 1]
+	  Position		  [240, 227, 345, 263]
+	  ZOrder		  1084
+	  RequestExecContextInheritance	off
+	  Port {
+	    PortNumber		    1
+	    Name		    "VBV_Er"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  System {
+	    Name		    "VBV Error Term"
+	    Location		    [66, 51, 1552, 815]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "125"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "EngBus"
+	      SID		      "362"
+	      Position		      [20, 298, 50, 312]
+	      ZOrder		      1087
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "InputBus"
+	      SID		      "360"
+	      Position		      [70, 323, 100, 337]
+	      ZOrder		      1085
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector"
+	      SID		      "344"
+	      Ports		      [1, 1]
+	      Position		      [355, 292, 360, 318]
+	      ZOrder		      1073
+	      ShowName		      off
+	      OutputSignals	      "Data.FAN_Data.Nc"
+	      Port {
+		PortNumber		1
+		Name			"<Nc>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector1"
+	      SID		      "353"
+	      Ports		      [1, 1]
+	      Position		      [340, 319, 345, 341]
+	      ZOrder		      1081
+	      ShowName		      off
+	      OutputSignals	      "MN"
+	      Port {
+		PortNumber		1
+		Name			"<MN>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      BusSelector
+	      Name		      "Bus\nSelector2"
+	      SID		      "354"
+	      Ports		      [1, 1]
+	      Position		      [340, 439, 345, 461]
+	      ZOrder		      1082
+	      ShowName		      off
+	      OutputSignals	      "VBV"
+	      Port {
+		PortNumber		1
+		Name			"<VBV>"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "355"
+	      Ports		      [2, 1]
+	      Position		      [615, 335, 635, 355]
+	      ZOrder		      1083
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	      Port {
+		PortNumber		1
+		Name			"VBV_Er"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Tstd1"
+	      SID		      "349"
+	      Position		      [215, 372, 295, 388]
+	      ZOrder		      1078
+	      ShowName		      off
+	      Value		      "MWS.In.VBVIC"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Tstd2"
+	      SID		      "350"
+	      Position		      [215, 347, 320, 363]
+	      ZOrder		      1079
+	      ShowName		      off
+	      Value		      "MWS.In.VBVManEn"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "VBV Set Point Calculation (Tbl)1"
+	      SID		      "342"
+	      Ports		      [4, 1]
+	      Position		      [400, 287, 560, 398]
+	      ZOrder		      1069
+	      LibraryVersion	      "1.349"
+	      SourceBlock	      "Lib_Cntrl_SetPoint_TMATS/Set Point Calculation (Tbl)"
+	      SourceType	      "T-MATS: Set Point Calculation (Tbl)"
+	      ContentPreviewEnabled   off
+	      ERVec_M		      "MWS.Cntrl.VBV_Nc1"
+	      DSVec_M		      "MWS.Cntrl.VBV_MN"
+	      SPArray_M		      "MWS.Cntrl.VBV_sch"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "VBVEr"
+	      SID		      "361"
+	      Position		      [700, 338, 730, 352]
+	      ZOrder		      1086
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      Name		      "<MN>"
+	      ZOrder		      575
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector1"
+	      SrcPort		      1
+	      DstBlock		      "VBV Set Point Calculation (Tbl)1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      591
+	      SrcBlock		      "EngBus"
+	      SrcPort		      1
+	      DstBlock		      "Bus\nSelector"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      579
+	      SrcBlock		      "VBV Set Point Calculation (Tbl)1"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      571
+	      SrcBlock		      "Tstd2"
+	      SrcPort		      1
+	      DstBlock		      "VBV Set Point Calculation (Tbl)1"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      570
+	      SrcBlock		      "Tstd1"
+	      SrcPort		      1
+	      DstBlock		      "VBV Set Point Calculation (Tbl)1"
+	      DstPort		      4
+	    }
+	    Line {
+	      Name		      "<Nc>"
+	      ZOrder		      583
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector"
+	      SrcPort		      1
+	      DstBlock		      "VBV Set Point Calculation (Tbl)1"
+	      DstPort		      1
+	    }
+	    Line {
+	      Name		      "VBV_Er"
+	      ZOrder		      590
+	      Labels		      [-1, 0]
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      DstBlock		      "VBVEr"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      589
+	      SrcBlock		      "InputBus"
+	      SrcPort		      1
+	      Points		      [100, 0]
+	      Branch {
+		ZOrder			577
+		Points			[0, 120]
+		DstBlock		"Bus\nSelector2"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			576
+		DstBlock		"Bus\nSelector1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      Name		      "<VBV>"
+	      ZOrder		      580
+	      Labels		      [0, 0]
+	      SrcBlock		      "Bus\nSelector2"
+	      SrcPort		      1
+	      Points		      [275, 0]
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Dependents"
+	  SID			  "117"
+	  Position		  [480, 198, 510, 212]
+	  ZOrder		  917
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  399
+	  SrcBlock		  "Ndot_Vec"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "EngEr"
+	  ZOrder		  339
+	  Labels		  [1, 1]
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  DstBlock		  "Mux2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  357
+	  SrcBlock		  "Mux2"
+	  SrcPort		  1
+	  DstBlock		  "Dependents"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  401
+	  SrcBlock		  "Dep_Vec"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "Nc1_Er"
+	  ZOrder		  553
+	  Labels		  [1, 1]
+	  SrcBlock		  "Corrected Speed Error Term"
+	  SrcPort		  1
+	  DstBlock		  "Mux2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  552
+	  SrcBlock		  "EngOrg"
+	  SrcPort		  1
+	  Points		  [45, 0]
+	  Branch {
+	    ZOrder		    594
+	    Points		    [0, 70]
+	    Branch {
+	      ZOrder		      597
+	      Points		      [0, 80]
+	      DstBlock		      "VAFN Error Term"
+	      DstPort		      1
+	    }
+	    Branch {
+	      ZOrder		      596
+	      DstBlock		      "VBV Error Term"
+	      DstPort		      1
+	    }
+	  }
+	  Branch {
+	    ZOrder		    592
+	    DstBlock		    "Corrected Speed Error Term"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  589
+	  SrcBlock		  "Inputs"
+	  SrcPort		  1
+	  Points		  [98, 0]
+	  Branch {
+	    ZOrder		    600
+	    Points		    [0, 80]
+	    DstBlock		    "VAFN Error Term"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    599
+	    DstBlock		    "VBV Error Term"
+	    DstPort		    2
+	  }
+	}
+	Line {
+	  Name			  "VBV_Er"
+	  ZOrder		  590
+	  Labels		  [1, 1]
+	  SrcBlock		  "VBV Error Term"
+	  SrcPort		  1
+	  DstBlock		  "Mux2"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "VAFN_Er"
+	  ZOrder		  595
+	  Labels		  [1, 1]
+	  SrcBlock		  "VAFN Error Term"
+	  SrcPort		  1
+	  DstBlock		  "Mux2"
+	  DstPort		  4
+	}
+	Annotation {
+	  SID			  "343"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
+	  "-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0;"
+	  " text-indent:0px;\"><br /></p></body></html>"
+	  Position		  [228, 245, 230, 260]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	  ZOrder		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      ModelReference
+      Name		      "Engine Model"
+      SID		      "7"
+      Ports		      [3, 3]
+      Position		      [740, 450, 880, 590]
+      ZOrder		      810
+      ModelNameDialog	      "AGTF30_eng.mdl"
+      SimulationMode	      "Normal"
+      ModelReferenceVersion   "1.304"
+      List {
+	ListType		InputPortNames
+	port0			"Sys_In"
+	port1			"Ind_vec"
+	port2			"N_vec"
+      }
+      List {
+	ListType		OutputPortNames
+	port0			"Eng_Out"
+	port1			"Ndot_vec"
+	port2			"Dep_vec"
+      }
+      List {
+	ListType		OutputPortBusObjects
+	port0			"Eng_Bus"
+	port1			""
+	port2			""
+      }
+      List {
+	ListType		OutputPortOutputBusAsStructs
+	port0			"off"
+	port1			"off"
+	port2			"off"
+      }
+      List {
+	ListType		InputPortLatchByCopyingInsideSignal
+	port0			"off"
+	port1			"off"
+	port2			"off"
+      }
+      CopyOfModelName	      "AGTF30_eng.mdl"
+      DefaultDataLogging      on
+      List {
+	ListType		InputPortLatchByDelayingOutsideSignal
+	port0			"off"
+	port1			"off"
+	port2			"off"
+      }
+      Port {
+	PortNumber		1
+	Name			"EngOut"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
+    }
+    Block {
+      BlockType		      From
+      Name		      "From"
+      SID		      "78"
+      Position		      [915, 908, 985, 922]
+      ZOrder		      886
+      ShowName		      off
+      GotoTag		      "converged"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From1"
+      SID		      "81"
+      Position		      [630, 798, 700, 812]
+      ZOrder		      889
+      ShowName		      off
+      GotoTag		      "converged"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From10"
+      SID		      "132"
+      Position		      [940, 883, 985, 897]
+      ZOrder		      919
+      ShowName		      off
+      GotoTag		      "EngOut"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From11"
+      SID		      "173"
+      Position		      [585, 488, 630, 502]
+      ZOrder		      928
+      ShowName		      off
+      GotoTag		      "Inputs"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From12"
+      SID		      "329"
+      Position		      [675, 693, 720, 707]
+      ZOrder		      963
+      ShowName		      off
+      GotoTag		      "VBVp1"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From13"
+      SID		      "177"
+      Position		      [1240, 953, 1285, 967]
+      ZOrder		      931
+      ShowName		      off
+      GotoTag		      "Inputs"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From14"
+      SID		      "287"
+      Position		      [315, 468, 360, 482]
+      ZOrder		      934
+      ShowName		      off
+      GotoTag		      "VAFN"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From15"
+      SID		      "331"
+      Position		      [315, 488, 360, 502]
+      ZOrder		      965
+      ShowName		      off
+      GotoTag		      "VBVp1"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From2"
+      SID		      "82"
+      Position		      [1155, 493, 1235, 507]
+      ZOrder		      890
+      ShowName		      off
+      GotoTag		      "Dependents"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From3"
+      SID		      "83"
+      Position		      [520, 603, 605, 617]
+      ZOrder		      891
+      BlockMirror	      on
+      ShowName		      off
+      GotoTag		      "Independents"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From4"
+      SID		      "85"
+      Position		      [915, 933, 985, 947]
+      ZOrder		      893
+      ShowName		      off
+      GotoTag		      "Dependents"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From5"
+      SID		      "87"
+      Position		      [915, 959, 1005, 971]
+      ZOrder		      895
+      ShowName		      off
+      GotoTag		      "Independents"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From6"
+      SID		      "99"
+      Position		      [675, 603, 720, 617]
+      ZOrder		      904
+      ShowName		      off
+      GotoTag		      "Wf"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From7"
+      SID		      "101"
+      Position		      [315, 448, 360, 462]
+      ZOrder		      906
+      ShowName		      off
+      GotoTag		      "Wf"
+      Port {
+	PortNumber		1
+	Name			"Fuel Flow"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From8"
+      SID		      "104"
+      Position		      [935, 453, 980, 467]
+      ZOrder		      909
+      ShowName		      off
+      GotoTag		      "EngOut"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "From9"
+      SID		      "328"
+      Position		      [675, 648, 720, 662]
+      ZOrder		      962
+      ShowName		      off
+      GotoTag		      "VAFN"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Inp"
+      SID		      "134"
+      Ports		      [3, 1]
+      Position		      [435, 441, 530, 509]
+      ZOrder		      920
+      RequestExecContextInheritance off
+      System {
+	Name			"Inp"
+	Location		[308, 183, 1794, 947]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"212"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Wf"
+	  SID			  "135"
+	  Position		  [20, 153, 50, 167]
+	  ZOrder		  904
+	  IconDisplay		  "Port number"
+	  Port {
+	    PortNumber		    1
+	    Name		    "Wf"
+	    PropagatedSignals	    "Fuel Flow"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "VAFN"
+	  SID			  "286"
+	  Position		  [20, 193, 50, 207]
+	  ZOrder		  906
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  Port {
+	    PortNumber		    1
+	    Name		    "VAFN"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "VBVp1"
+	  SID			  "325"
+	  Position		  [20, 233, 50, 247]
+	  ZOrder		  907
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  Port {
+	    PortNumber		    1
+	    Name		    "VBV"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator"
+	  SID			  "352"
+	  Ports			  [6, 1]
+	  Position		  [340, 25, 345, 255]
+	  ZOrder		  909
+	  ShowName		  off
+	  Inputs		  "6"
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum"
+	  SID			  "356"
+	  Ports			  [2, 1]
+	  Position		  [115, 230, 135, 250]
+	  ZOrder		  1084
+	  ShowName		  off
+	  IconShape		  "round"
+	  Inputs		  "|+-"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	  Port {
+	    PortNumber		    1
+	    Name		    "VBV"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Wf1"
+	  SID			  "357"
+	  Position		  [90, 262, 110, 278]
+	  ZOrder		  1085
+	  ShowName		  off
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Wf2"
+	  SID			  "20"
+	  Position		  [25, 32, 115, 48]
+	  ZOrder		  823
+	  ShowName		  off
+	  Value			  "MWS.In.AltIC"
+	  Port {
+	    PortNumber		    1
+	    Name		    "Altitude"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Wf3"
+	  SID			  "18"
+	  Position		  [25, 112, 115, 128]
+	  ZOrder		  821
+	  ShowName		  off
+	  Value			  "MWS.In.MNIC"
+	  Port {
+	    PortNumber		    1
+	    Name		    "MN"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Wf4"
+	  SID			  "21"
+	  Position		  [25, 72, 115, 88]
+	  ZOrder		  824
+	  ShowName		  off
+	  Value			  "MWS.In.dTambIC"
+	  Port {
+	    PortNumber		    1
+	    Name		    "dTamb"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "EngInputs"
+	  SID			  "136"
+	  Position		  [405, 133, 435, 147]
+	  ZOrder		  905
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  Name			  "Altitude"
+	  ZOrder		  354
+	  Labels		  [1, 1]
+	  SrcBlock		  "Wf2"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "MN"
+	  ZOrder		  358
+	  Labels		  [1, 1]
+	  SrcBlock		  "Wf3"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  353
+	  SrcBlock		  "Bus\nCreator"
+	  SrcPort		  1
+	  DstBlock		  "EngInputs"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "VBV"
+	  ZOrder		  360
+	  Labels		  [1, 1]
+	  SrcBlock		  "Sum"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  6
+	}
+	Line {
+	  Name			  "VAFN"
+	  ZOrder		  356
+	  Labels		  [1, 1]
+	  SrcBlock		  "VAFN"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  5
+	}
+	Line {
+	  Name			  "dTamb"
+	  ZOrder		  352
+	  Labels		  [1, 1]
+	  SrcBlock		  "Wf4"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "Wf"
+	  ZOrder		  357
+	  Labels		  [1, 1]
+	  SrcBlock		  "Wf"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  4
+	}
+	Line {
+	  Name			  "VBV"
+	  ZOrder		  361
+	  Labels		  [0, 0]
+	  SrcBlock		  "VBVp1"
+	  SrcPort		  1
+	  DstBlock		  "Sum"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  362
+	  SrcBlock		  "Wf1"
+	  SrcPort		  1
+	  Points		  [10, 0]
+	  DstBlock		  "Sum"
+	  DstPort		  2
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "OutputFormat"
+      SID		      "125"
+      Ports		      [4, 1]
+      Position		      [1015, 879, 1085, 976]
+      ZOrder		      917
+      RequestExecContextInheritance off
+      System {
+	Name			"OutputFormat"
+	Location		[308, 183, 1794, 947]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"326"
+	Block {
+	  BlockType		  Inport
+	  Name			  "EngOut"
+	  SID			  "126"
+	  Position		  [20, 38, 50, 52]
+	  ZOrder		  900
+	  IconDisplay		  "Port number"
+	  Port {
+	    PortNumber		    1
+	    Name		    "EngOut"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "converged"
+	  SID			  "127"
+	  Position		  [20, 83, 50, 97]
+	  ZOrder		  901
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Dep"
+	  SID			  "128"
+	  Position		  [20, 113, 50, 127]
+	  ZOrder		  902
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Indep"
+	  SID			  "129"
+	  Position		  [20, 143, 50, 157]
+	  ZOrder		  903
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator"
+	  SID			  "79"
+	  Ports			  [3, 1]
+	  Position		  [230, 73, 235, 167]
+	  ZOrder		  887
+	  ShowName		  off
+	  Inputs		  "3"
+	  DisplayOption		  "bar"
+	  Port {
+	    PortNumber		    1
+	    Name		    "Solver"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator1"
+	  SID			  "88"
+	  Ports			  [2, 1]
+	  Position		  [285, 20, 290, 115]
+	  ZOrder		  896
+	  ShowName		  off
+	  Inputs		  "2"
+	  DisplayOption		  "bar"
+	  Port {
+	    PortNumber		    1
+	    Name		    "SysOut"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  SignalConversion
+	  Name			  "Signal\nConversion"
+	  SID			  "89"
+	  Position		  [130, 141, 150, 159]
+	  ZOrder		  897
+	  ShowName		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "independents"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  SignalConversion
+	  Name			  "Signal\nConversion1"
+	  SID			  "90"
+	  Position		  [130, 111, 150, 129]
+	  ZOrder		  898
+	  ShowName		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "dependents"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  SignalConversion
+	  Name			  "Signal\nConversion2"
+	  SID			  "91"
+	  Position		  [130, 81, 150, 99]
+	  ZOrder		  899
+	  ShowName		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "converged"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SysOut"
+	  SID			  "130"
+	  Position		  [410, 63, 440, 77]
+	  ZOrder		  904
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  Name			  "dependents"
+	  ZOrder		  296
+	  Labels		  [1, 1]
+	  SrcBlock		  "Signal\nConversion1"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "independents"
+	  ZOrder		  295
+	  Labels		  [1, 1]
+	  SrcBlock		  "Signal\nConversion"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "converged"
+	  ZOrder		  297
+	  Labels		  [1, 1]
+	  SrcBlock		  "Signal\nConversion2"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "SysOut"
+	  ZOrder		  302
+	  Labels		  [1, 1]
+	  SrcBlock		  "Bus\nCreator1"
+	  SrcPort		  1
+	  DstBlock		  "SysOut"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "Solver"
+	  ZOrder		  294
+	  Labels		  [1, 1]
+	  SrcBlock		  "Bus\nCreator"
+	  SrcPort		  1
+	  Points		  [30, 0]
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  301
+	  SrcBlock		  "Indep"
+	  SrcPort		  1
+	  DstBlock		  "Signal\nConversion"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  300
+	  SrcBlock		  "Dep"
+	  SrcPort		  1
+	  DstBlock		  "Signal\nConversion1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  299
+	  SrcBlock		  "converged"
+	  SrcPort		  1
+	  DstBlock		  "Signal\nConversion2"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "EngOut"
+	  ZOrder		  298
+	  Labels		  [1, 1]
+	  SrcBlock		  "EngOut"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "SS NR Solver w JacobianCalc"
+      SID		      "8"
+      Ports		      [2, 2]
+      Position		      [745, 708, 885, 792]
+      ZOrder		      811
+      BlockMirror	      on
+      LibraryVersion	      "1.393"
+      SourceBlock	      "Lib_Solve_SSNRSolverJC_TMATS/SS NR Solver w JacobianCalc"
+      SourceType	      "T-MATS: SS NR Solver w Jacobian Calc Library Block"
+      ContentPreviewEnabled   off
+      SJac_Per_M	      "MWS.In.JPerSS"
+      SNR_IC_M		      "[MWS.In.ICcom MWS.In.ICss]'"
+      SNR_DX_M		      "1"
+      SNR_Mx_M		      "1000000"
+      SNR_Mn_M		      "0.000001"
+      SJacobianAttempts_M     "MWS.In.NRASS"
+      Cond_Limits_M	      "MWS.In.Lim"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "StationOutput"
+      SID		      "43"
+      Ports		      [1]
+      Position		      [1140, 939, 1200, 961]
+      ZOrder		      882
+      RequestExecContextInheritance off
+      System {
+	Name			"StationOutput"
+	Location		[308, 183, 1794, 947]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"118"
+	Block {
+	  BlockType		  Inport
+	  Name			  "EngOut"
+	  SID			  "44"
+	  Position		  [40, 253, 70, 267]
+	  ZOrder		  880
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector1"
+	  SID			  "45"
+	  Ports			  [1, 5]
+	  Position		  [510, 38, 515, 482]
+	  ZOrder		  895
+	  ShowName		  off
+	  OutputSignals		  "EngOut.Data.FAN_Data,EngOut.Data.LPC_Data,EngOut.Data.HPC_Data,EngOut.Data.HPT_Data,EngOut.Data.L"
+	  "PT_Data"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<FAN_Data>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<LPC_Data>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<HPC_Data>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<HPT_Data>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<LPT_Data>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector2"
+	  SID			  "46"
+	  Ports			  [1, 9]
+	  Position		  [255, 38, 260, 482]
+	  ZOrder		  875
+	  ShowName		  off
+	  OutputSignals		  "EngOut.S0,EngOut.S2,EngOut.S21,EngOut.S25,EngOut.S36,EngOut.S4,EngOut.S45,EngOut.S5,EngOut.S17"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<S0>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<S2>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<S21>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<S25>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<S36>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    6
+	    Name		    "<S4>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    7
+	    Name		    "<S45>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    8
+	    Name		    "<S5>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    9
+	    Name		    "<S17>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace"
+	  SID			  "47"
+	  Ports			  [1]
+	  Position		  [325, 45, 385, 75]
+	  ZOrder		  876
+	  ShowName		  off
+	  VariableName		  "out_S0"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace1"
+	  SID			  "48"
+	  Ports			  [1]
+	  Position		  [325, 95, 385, 125]
+	  ZOrder		  878
+	  ShowName		  off
+	  VariableName		  "out_S2"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace10"
+	  SID			  "49"
+	  Ports			  [1]
+	  Position		  [585, 245, 645, 275]
+	  ZOrder		  899
+	  ShowName		  off
+	  VariableName		  "out_HPCmp"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace11"
+	  SID			  "50"
+	  Ports			  [1]
+	  Position		  [585, 335, 645, 365]
+	  ZOrder		  900
+	  ShowName		  off
+	  VariableName		  "out_HPTmp"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace12"
+	  SID			  "51"
+	  Ports			  [1]
+	  Position		  [585, 425, 645, 455]
+	  ZOrder		  901
+	  ShowName		  off
+	  VariableName		  "out_LPTmp"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace13"
+	  SID			  "269"
+	  Ports			  [1]
+	  Position		  [325, 145, 385, 175]
+	  ZOrder		  902
+	  ShowName		  off
+	  VariableName		  "out_S21"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace2"
+	  SID			  "52"
+	  Ports			  [1]
+	  Position		  [325, 195, 385, 225]
+	  ZOrder		  882
+	  ShowName		  off
+	  VariableName		  "out_S25"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace3"
+	  SID			  "53"
+	  Ports			  [1]
+	  Position		  [325, 245, 385, 275]
+	  ZOrder		  888
+	  ShowName		  off
+	  VariableName		  "out_S36"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace4"
+	  SID			  "54"
+	  Ports			  [1]
+	  Position		  [325, 295, 385, 325]
+	  ZOrder		  891
+	  ShowName		  off
+	  VariableName		  "out_S4"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace5"
+	  SID			  "55"
+	  Ports			  [1]
+	  Position		  [325, 345, 385, 375]
+	  ZOrder		  892
+	  ShowName		  off
+	  VariableName		  "out_S45"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace6"
+	  SID			  "56"
+	  Ports			  [1]
+	  Position		  [325, 395, 385, 425]
+	  ZOrder		  893
+	  ShowName		  off
+	  VariableName		  "out_S5"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace7"
+	  SID			  "57"
+	  Ports			  [1]
+	  Position		  [325, 445, 385, 475]
+	  ZOrder		  894
+	  ShowName		  off
+	  VariableName		  "out_S17"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace8"
+	  SID			  "58"
+	  Ports			  [1]
+	  Position		  [585, 65, 645, 95]
+	  ZOrder		  896
+	  ShowName		  off
+	  VariableName		  "out_FANmp"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "To Workspace9"
+	  SID			  "59"
+	  Ports			  [1]
+	  Position		  [585, 155, 645, 185]
+	  ZOrder		  898
+	  ShowName		  off
+	  VariableName		  "out_LPCmp"
+	  MaxDataPoints		  "inf"
+	  SaveFormat		  "Timeseries"
+	  Save2DSignal		  "3-D array (concatenate along third dimension)"
+	  FixptAsFi		  on
+	  SampleTime		  "-1"
+	}
+	Line {
+	  Name			  "<LPT_Data>"
+	  ZOrder		  1
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  5
+	  DstBlock		  "To Workspace12"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<HPT_Data>"
+	  ZOrder		  2
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  4
+	  DstBlock		  "To Workspace11"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<HPC_Data>"
+	  ZOrder		  3
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  3
+	  DstBlock		  "To Workspace10"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<LPC_Data>"
+	  ZOrder		  4
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  2
+	  DstBlock		  "To Workspace9"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<FAN_Data>"
+	  ZOrder		  5
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  1
+	  DstBlock		  "To Workspace8"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S17>"
+	  ZOrder		  17
+	  Labels		  [0, 1]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  9
+	  DstBlock		  "To Workspace7"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S5>"
+	  ZOrder		  18
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  8
+	  DstBlock		  "To Workspace6"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S45>"
+	  ZOrder		  19
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  7
+	  DstBlock		  "To Workspace5"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S4>"
+	  ZOrder		  20
+	  Labels		  [1, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  6
+	  DstBlock		  "To Workspace4"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S36>"
+	  ZOrder		  21
+	  Labels		  [1, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  5
+	  DstBlock		  "To Workspace3"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S25>"
+	  ZOrder		  22
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  4
+	  DstBlock		  "To Workspace2"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S2>"
+	  ZOrder		  12
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  2
+	  DstBlock		  "To Workspace1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  13
+	  SrcBlock		  "EngOut"
+	  SrcPort		  1
+	  Points		  [33, 0]
+	  Branch {
+	    ZOrder		    14
+	    DstBlock		    "Bus\nSelector2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    15
+	    Points		    [0, 233; 340, 0; 0, -233]
+	    DstBlock		    "Bus\nSelector1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  Name			  "<S0>"
+	  ZOrder		  16
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  1
+	  DstBlock		  "To Workspace"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S21>"
+	  ZOrder		  23
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  3
+	  DstBlock		  "To Workspace13"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Stop
+      Name		      "Stop Simulation"
+      SID		      "13"
+      Position		      [545, 752, 580, 788]
+      ZOrder		      816
+      BlockMirror	      on
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "SystemData"
+      SID		      "168"
+      Ports		      [2, 1]
+      Position		      [1310, 914, 1400, 976]
+      ZOrder		      927
+      RequestExecContextInheritance off
+      System {
+	Name			"SystemData"
+	Location		[308, 183, 1794, 947]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"77"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Eng"
+	  SID			  "170"
+	  Position		  [20, 393, 50, 407]
+	  ZOrder		  928
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Inp"
+	  SID			  "176"
+	  Position		  [50, 93, 80, 107]
+	  ZOrder		  931
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator"
+	  SID			  "166"
+	  Ports			  [26, 1]
+	  Position		  [620, 85, 625, 710]
+	  ZOrder		  925
+	  ShowName		  off
+	  Inputs		  "26"
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector1"
+	  SID			  "165"
+	  Ports			  [1, 3]
+	  Position		  [110, 627, 115, 703]
+	  ZOrder		  924
+	  ShowName		  off
+	  OutputSignals		  "EngOut.Perf.Fdrag,EngOut.Perf.Fnet,EngOut.Perf.Fg"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<Fdrag>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<Fnet>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<Fg>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector2"
+	  SID			  "167"
+	  Ports			  [1, 17]
+	  Position		  [90, 197, 95, 603]
+	  ZOrder		  926
+	  ShowName		  off
+	  OutputSignals		  "EngOut.Amb.Pa,EngOut.S0,EngOut.S2,EngOut.S21,EngOut.S25,EngOut.S36,EngOut.S4,EngOut.S45,EngOut.S5"
+	  ",EngOut.S7,EngOut.S17,EngOut.Shaft.N_Fan,EngOut.Shaft.N_LPC,EngOut.Shaft.N_HPC,Solver.independents,Solver.dependent"
+	  "s,Solver.converged"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<Pa>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<S0>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<S2>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<S21>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<S25>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    6
+	    Name		    "<S36>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    7
+	    Name		    "<S4>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    8
+	    Name		    "<S45>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    9
+	    Name		    "<S5>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    10
+	    Name		    "<S7>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    11
+	    Name		    "<S17>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    12
+	    Name		    "<N_Fan>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    13
+	    Name		    "<N_LPC>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    14
+	    Name		    "<N_HPC>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    15
+	    Name		    "<independents>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    16
+	    Name		    "<dependents>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    17
+	    Name		    "<converged>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  "Demux"
+	  SID			  "179"
+	  Ports			  [1, 6]
+	  Position		  [110, 20, 115, 175]
+	  ZOrder		  933
+	  ShowName		  off
+	  Outputs		  "6"
+	  DisplayOption		  "bar"
+	  Port {
+	    PortNumber		    1
+	    Name		    "Alt"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "dT"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "MN"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "Wf"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "VAFN"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    6
+	    Name		    "VBV"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From"
+	  SID			  "181"
+	  Position		  [155, 28, 205, 42]
+	  ZOrder		  935
+	  ShowName		  off
+	  GotoTag		  "Alt"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From1"
+	  SID			  "183"
+	  Position		  [555, 78, 605, 92]
+	  ZOrder		  937
+	  ShowName		  off
+	  GotoTag		  "Alt"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From10"
+	  SID			  "197"
+	  Position		  [555, 203, 605, 217]
+	  ZOrder		  951
+	  ShowName		  off
+	  GotoTag		  "VBV"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From11"
+	  SID			  "199"
+	  Position		  [155, 153, 205, 167]
+	  ZOrder		  953
+	  ShowName		  off
+	  GotoTag		  "VBV"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From12"
+	  SID			  "200"
+	  Position		  [155, 193, 205, 207]
+	  ZOrder		  954
+	  ShowName		  off
+	  GotoTag		  "Pa"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From13"
+	  SID			  "201"
+	  Position		  [155, 218, 205, 232]
+	  ZOrder		  955
+	  ShowName		  off
+	  GotoTag		  "S0"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From14"
+	  SID			  "202"
+	  Position		  [155, 243, 205, 257]
+	  ZOrder		  956
+	  ShowName		  off
+	  GotoTag		  "S2"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From15"
+	  SID			  "203"
+	  Position		  [155, 293, 205, 307]
+	  ZOrder		  957
+	  ShowName		  off
+	  GotoTag		  "S25"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From16"
+	  SID			  "204"
+	  Position		  [155, 318, 205, 332]
+	  ZOrder		  958
+	  ShowName		  off
+	  GotoTag		  "S36"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From17"
+	  SID			  "205"
+	  Position		  [155, 343, 205, 357]
+	  ZOrder		  959
+	  ShowName		  off
+	  GotoTag		  "S4"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From18"
+	  SID			  "206"
+	  Position		  [155, 368, 205, 382]
+	  ZOrder		  960
+	  ShowName		  off
+	  GotoTag		  "S45"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From19"
+	  SID			  "207"
+	  Position		  [155, 393, 205, 407]
+	  ZOrder		  961
+	  ShowName		  off
+	  GotoTag		  "S5"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From2"
+	  SID			  "184"
+	  Position		  [155, 53, 205, 67]
+	  ZOrder		  938
+	  ShowName		  off
+	  GotoTag		  "dT"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From20"
+	  SID			  "208"
+	  Position		  [155, 443, 205, 457]
+	  ZOrder		  962
+	  ShowName		  off
+	  GotoTag		  "S17"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From21"
+	  SID			  "209"
+	  Position		  [155, 468, 205, 482]
+	  ZOrder		  963
+	  ShowName		  off
+	  GotoTag		  "N_Fan"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From22"
+	  SID			  "210"
+	  Position		  [155, 493, 205, 507]
+	  ZOrder		  964
+	  ShowName		  off
+	  GotoTag		  "N_LPC"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From23"
+	  SID			  "211"
+	  Position		  [155, 518, 205, 532]
+	  ZOrder		  965
+	  ShowName		  off
+	  GotoTag		  "N_HPC"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From24"
+	  SID			  "224"
+	  Position		  [540, 228, 590, 242]
+	  ZOrder		  978
+	  ShowName		  off
+	  GotoTag		  "Pa"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From25"
+	  SID			  "225"
+	  Position		  [540, 253, 590, 267]
+	  ZOrder		  979
+	  ShowName		  off
+	  GotoTag		  "S0"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From26"
+	  SID			  "226"
+	  Position		  [540, 278, 590, 292]
+	  ZOrder		  980
+	  ShowName		  off
+	  GotoTag		  "S2"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From27"
+	  SID			  "227"
+	  Position		  [540, 328, 590, 342]
+	  ZOrder		  981
+	  ShowName		  off
+	  GotoTag		  "S25"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From28"
+	  SID			  "228"
+	  Position		  [540, 353, 590, 367]
+	  ZOrder		  982
+	  ShowName		  off
+	  GotoTag		  "S36"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From29"
+	  SID			  "229"
+	  Position		  [540, 378, 590, 392]
+	  ZOrder		  983
+	  ShowName		  off
+	  GotoTag		  "S4"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From3"
+	  SID			  "186"
+	  Position		  [555, 103, 605, 117]
+	  ZOrder		  940
+	  ShowName		  off
+	  GotoTag		  "dT"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From30"
+	  SID			  "230"
+	  Position		  [540, 403, 590, 417]
+	  ZOrder		  984
+	  ShowName		  off
+	  GotoTag		  "S45"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From31"
+	  SID			  "231"
+	  Position		  [540, 428, 590, 442]
+	  ZOrder		  985
+	  ShowName		  off
+	  GotoTag		  "S5"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From32"
+	  SID			  "232"
+	  Position		  [540, 478, 590, 492]
+	  ZOrder		  986
+	  ShowName		  off
+	  GotoTag		  "S17"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From33"
+	  SID			  "233"
+	  Position		  [540, 503, 590, 517]
+	  ZOrder		  987
+	  ShowName		  off
+	  GotoTag		  "N_Fan"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From34"
+	  SID			  "234"
+	  Position		  [540, 528, 590, 542]
+	  ZOrder		  988
+	  ShowName		  off
+	  GotoTag		  "N_LPC"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From35"
+	  SID			  "235"
+	  Position		  [540, 553, 590, 567]
+	  ZOrder		  989
+	  ShowName		  off
+	  GotoTag		  "N_HPC"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From36"
+	  SID			  "236"
+	  Position		  [155, 543, 205, 557]
+	  ZOrder		  990
+	  ShowName		  off
+	  GotoTag		  "indep"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From37"
+	  SID			  "237"
+	  Position		  [155, 568, 205, 582]
+	  ZOrder		  991
+	  ShowName		  off
+	  GotoTag		  "dep"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From38"
+	  SID			  "238"
+	  Position		  [155, 593, 205, 607]
+	  ZOrder		  992
+	  ShowName		  off
+	  GotoTag		  "convged"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From39"
+	  SID			  "242"
+	  Position		  [475, 653, 525, 667]
+	  ZOrder		  996
+	  ShowName		  off
+	  GotoTag		  "indep"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From4"
+	  SID			  "187"
+	  Position		  [155, 78, 205, 92]
+	  ZOrder		  941
+	  ShowName		  off
+	  GotoTag		  "MN"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From40"
+	  SID			  "243"
+	  Position		  [475, 678, 525, 692]
+	  ZOrder		  997
+	  ShowName		  off
+	  GotoTag		  "dep"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From41"
+	  SID			  "244"
+	  Position		  [475, 703, 525, 717]
+	  ZOrder		  998
+	  ShowName		  off
+	  GotoTag		  "convged"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From42"
+	  SID			  "245"
+	  Position		  [155, 633, 205, 647]
+	  ZOrder		  999
+	  ShowName		  off
+	  GotoTag		  "F_drag"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From43"
+	  SID			  "246"
+	  Position		  [155, 658, 205, 672]
+	  ZOrder		  1000
+	  ShowName		  off
+	  GotoTag		  "F_net"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From44"
+	  SID			  "247"
+	  Position		  [155, 683, 205, 697]
+	  ZOrder		  1001
+	  ShowName		  off
+	  GotoTag		  "F_gross"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From45"
+	  SID			  "251"
+	  Position		  [505, 578, 555, 592]
+	  ZOrder		  1005
+	  ShowName		  off
+	  GotoTag		  "F_drag"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From46"
+	  SID			  "252"
+	  Position		  [505, 603, 555, 617]
+	  ZOrder		  1006
+	  ShowName		  off
+	  GotoTag		  "F_net"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From47"
+	  SID			  "253"
+	  Position		  [475, 628, 525, 642]
+	  ZOrder		  1007
+	  ShowName		  off
+	  GotoTag		  "F_gross"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From48"
+	  SID			  "272"
+	  Position		  [155, 418, 205, 432]
+	  ZOrder		  1008
+	  ShowName		  off
+	  GotoTag		  "S7"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From49"
+	  SID			  "273"
+	  Position		  [540, 453, 590, 467]
+	  ZOrder		  1009
+	  ShowName		  off
+	  GotoTag		  "S7"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From5"
+	  SID			  "189"
+	  Position		  [555, 128, 605, 142]
+	  ZOrder		  943
+	  ShowName		  off
+	  GotoTag		  "MN"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From50"
+	  SID			  "278"
+	  Position		  [155, 268, 205, 282]
+	  ZOrder		  1010
+	  ShowName		  off
+	  GotoTag		  "S21"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From51"
+	  SID			  "279"
+	  Position		  [540, 303, 590, 317]
+	  ZOrder		  1011
+	  ShowName		  off
+	  GotoTag		  "S21"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From6"
+	  SID			  "190"
+	  Position		  [155, 103, 205, 117]
+	  ZOrder		  944
+	  ShowName		  off
+	  GotoTag		  "Wf"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From7"
+	  SID			  "192"
+	  Position		  [555, 153, 605, 167]
+	  ZOrder		  946
+	  ShowName		  off
+	  GotoTag		  "Wf"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "From8"
+	  SID			  "194"
+	  Position		  [155, 128, 205, 142]
+	  ZOrder		  948
+	  ShowName		  off
+	  GotoTag		  "VAFN"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From9"
+	  SID			  "196"
+	  Position		  [555, 178, 605, 192]
+	  ZOrder		  950
+	  ShowName		  off
+	  GotoTag		  "VAFN"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SystemOut"
+	  SID			  "171"
+	  Position		  [665, 393, 695, 407]
+	  ZOrder		  929
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  479
+	  SrcBlock		  "Eng"
+	  SrcPort		  1
+	  Points		  [6, 0]
+	  Branch {
+	    ZOrder		    658
+	    Points		    [0, 265]
+	    DstBlock		    "Bus\nSelector1"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    545
+	    DstBlock		    "Bus\nSelector2"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  437
+	  SrcBlock		  "Bus\nCreator"
+	  SrcPort		  1
+	  DstBlock		  "SystemOut"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  440
+	  SrcBlock		  "Inp"
+	  SrcPort		  1
+	  DstBlock		  "Demux"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  494
+	  SrcBlock		  "From26"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  493
+	  SrcBlock		  "From25"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  492
+	  SrcBlock		  "From24"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  7
+	}
+	Line {
+	  Name			  "VBV"
+	  ZOrder		  477
+	  Labels		  [-1, 0]
+	  SrcBlock		  "Demux"
+	  SrcPort		  6
+	  DstBlock		  "From11"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "VAFN"
+	  ZOrder		  474
+	  Labels		  [1, 1]
+	  SrcBlock		  "Demux"
+	  SrcPort		  5
+	  DstBlock		  "From8"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "Wf"
+	  ZOrder		  472
+	  Labels		  [-1, 0]
+	  SrcBlock		  "Demux"
+	  SrcPort		  4
+	  DstBlock		  "From6"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "MN"
+	  ZOrder		  469
+	  Labels		  [-1, 0]
+	  SrcBlock		  "Demux"
+	  SrcPort		  3
+	  DstBlock		  "From4"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "dT"
+	  ZOrder		  466
+	  Labels		  [1, 1]
+	  SrcBlock		  "Demux"
+	  SrcPort		  2
+	  DstBlock		  "From2"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "Alt"
+	  ZOrder		  463
+	  Labels		  [-1, 0]
+	  SrcBlock		  "Demux"
+	  SrcPort		  1
+	  DstBlock		  "From"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  464
+	  SrcBlock		  "From1"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  467
+	  SrcBlock		  "From3"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  470
+	  SrcBlock		  "From5"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  473
+	  SrcBlock		  "From7"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  475
+	  SrcBlock		  "From9"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  478
+	  SrcBlock		  "From10"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  6
+	}
+	Line {
+	  Name			  "<Pa>"
+	  ZOrder		  480
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  1
+	  DstBlock		  "From12"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S0>"
+	  ZOrder		  481
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  2
+	  DstBlock		  "From13"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S2>"
+	  ZOrder		  482
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  3
+	  DstBlock		  "From14"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S25>"
+	  ZOrder		  483
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  5
+	  DstBlock		  "From15"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S36>"
+	  ZOrder		  484
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  6
+	  DstBlock		  "From16"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S4>"
+	  ZOrder		  485
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  7
+	  DstBlock		  "From17"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S45>"
+	  ZOrder		  486
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  8
+	  DstBlock		  "From18"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S5>"
+	  ZOrder		  487
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  9
+	  DstBlock		  "From19"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S17>"
+	  ZOrder		  488
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  11
+	  DstBlock		  "From20"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<N_Fan>"
+	  ZOrder		  489
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  12
+	  DstBlock		  "From21"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<N_LPC>"
+	  ZOrder		  490
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  13
+	  DstBlock		  "From22"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<N_HPC>"
+	  ZOrder		  491
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  14
+	  DstBlock		  "From23"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<independents>"
+	  ZOrder		  504
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  15
+	  DstBlock		  "From36"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<dependents>"
+	  ZOrder		  505
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  16
+	  DstBlock		  "From37"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<converged>"
+	  ZOrder		  506
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  17
+	  DstBlock		  "From38"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<Fdrag>"
+	  ZOrder		  510
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  1
+	  DstBlock		  "From42"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<Fnet>"
+	  ZOrder		  511
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  2
+	  DstBlock		  "From43"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<Fg>"
+	  ZOrder		  512
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  3
+	  DstBlock		  "From44"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S7>"
+	  ZOrder		  601
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  10
+	  DstBlock		  "From48"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<S21>"
+	  ZOrder		  659
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  4
+	  DstBlock		  "From50"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  660
+	  SrcBlock		  "From51"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  10
+	}
+	Line {
+	  ZOrder		  661
+	  SrcBlock		  "From29"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  13
+	}
+	Line {
+	  ZOrder		  662
+	  SrcBlock		  "From30"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  14
+	}
+	Line {
+	  ZOrder		  663
+	  SrcBlock		  "From32"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  17
+	}
+	Line {
+	  ZOrder		  664
+	  SrcBlock		  "From31"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  15
+	}
+	Line {
+	  ZOrder		  665
+	  SrcBlock		  "From33"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  18
+	}
+	Line {
+	  ZOrder		  666
+	  SrcBlock		  "From27"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  11
+	}
+	Line {
+	  ZOrder		  667
+	  SrcBlock		  "From28"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  12
+	}
+	Line {
+	  ZOrder		  668
+	  SrcBlock		  "From49"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  16
+	}
+	Line {
+	  ZOrder		  669
+	  SrcBlock		  "From34"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  19
+	}
+	Line {
+	  ZOrder		  670
+	  SrcBlock		  "From35"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  20
+	}
+	Line {
+	  ZOrder		  671
+	  SrcBlock		  "From45"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  21
+	}
+	Line {
+	  ZOrder		  672
+	  SrcBlock		  "From46"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  22
+	}
+	Line {
+	  ZOrder		  673
+	  SrcBlock		  "From47"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  23
+	}
+	Line {
+	  ZOrder		  674
+	  SrcBlock		  "From41"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  26
+	}
+	Line {
+	  ZOrder		  675
+	  SrcBlock		  "From39"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  24
+	}
+	Line {
+	  ZOrder		  676
+	  SrcBlock		  "From40"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  25
+	}
+      }
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace"
+      SID		      "23"
+      Ports		      [1]
+      Position		      [1430, 930, 1490, 960]
+      ZOrder		      826
+      ShowName		      off
+      VariableName	      "out_SS"
+      MaxDataPoints	      "1"
+      SaveFormat	      "Timeseries"
+      Save2DSignal	      "3-D array (concatenate along third dimension)"
+      FixptAsFi		      on
+      SampleTime	      "-1"
+    }
+    Line {
+      ZOrder		      177
+      SrcBlock		      "Demux"
+      SrcPort		      2
+      DstBlock		      "Engine Model"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      178
+      SrcBlock		      "Demux"
+      SrcPort		      1
+      DstBlock		      "Engine Model"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      31
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      DstBlock		      "SS NR Solver w JacobianCalc"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      32
+      SrcBlock		      "SS NR Solver w JacobianCalc"
+      SrcPort		      2
+      DstBlock		      "Bus\nSelector"
+      DstPort		      1
+    }
+    Line {
+      Name		      "<Converged>"
+      ZOrder		      33
+      Labels		      [0, 0]
+      SrcBlock		      "Bus\nSelector"
+      SrcPort		      1
+      Points		      [-64, 0]
+      Branch {
+	ZOrder			217
+	DstBlock		"Stop Simulation"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			283
+	Points			[0, 35]
+	DstBlock		"From1"
+	DstPort			1
+      }
+    }
+    Line {
+      Name		      "EngOut"
+      ZOrder		      44
+      SrcBlock		      "Engine Model"
+      SrcPort		      1
+      Points		      [25, 0]
+      Branch {
+	ZOrder			580
+	Points			[0, -15]
+	DstBlock		"From8"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			566
+	Labels			[0, 0]
+	DstBlock		"DepFormat"
+	DstPort			2
+      }
+    }
+    Line {
+      ZOrder		      49
+      SrcBlock		      "SS NR Solver w JacobianCalc"
+      SrcPort		      1
+      Points		      [-108, 0; 0, -120]
+      Branch {
+	ZOrder			575
+	DstBlock		"Demux"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			221
+	DstBlock		"From3"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      335
+      SrcBlock		      "Demux"
+      SrcPort		      3
+      DstBlock		      "From6"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      371
+      SrcBlock		      "DepFormat"
+      SrcPort		      1
+      Points		      [17, 0]
+      Branch {
+	ZOrder			585
+	Points			[0, 270]
+	DstBlock		"SS NR Solver w JacobianCalc"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			529
+	DstBlock		"From2"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      483
+      SrcBlock		      "Engine Model"
+      SrcPort		      2
+      DstBlock		      "DepFormat"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      390
+      SrcBlock		      "From"
+      SrcPort		      1
+      DstBlock		      "OutputFormat"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      391
+      SrcBlock		      "From4"
+      SrcPort		      1
+      DstBlock		      "OutputFormat"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      392
+      SrcBlock		      "From5"
+      SrcPort		      1
+      DstBlock		      "OutputFormat"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      397
+      SrcBlock		      "From10"
+      SrcPort		      1
+      DstBlock		      "OutputFormat"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      401
+      SrcBlock		      "Inp"
+      SrcPort		      1
+      Points		      [28, 0]
+      Branch {
+	ZOrder			574
+	Points			[0, 20]
+	DstBlock		"From11"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			570
+	Points			[148, 0]
+	Branch {
+	  ZOrder		  582
+	  Points		  [0, -45]
+	  DstBlock		  "DepFormat"
+	  DstPort		  1
+	}
+	Branch {
+	  ZOrder		  581
+	  DstBlock		  "Engine Model"
+	  DstPort		  1
+	}
+      }
+    }
+    Line {
+      Name		      "Fuel Flow"
+      ZOrder		      400
+      Labels		      [1, 0]
+      SrcBlock		      "From7"
+      SrcPort		      1
+      DstBlock		      "Inp"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      393
+      SrcBlock		      "OutputFormat"
+      SrcPort		      1
+      Points		      [10, 0]
+      Branch {
+	ZOrder			443
+	Points			[0, 20]
+	DstBlock		"StationOutput"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			445
+	DstBlock		"SystemData"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      437
+      SrcBlock		      "SystemData"
+      SrcPort		      1
+      DstBlock		      "To Workspace"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      448
+      SrcBlock		      "From13"
+      SrcPort		      1
+      DstBlock		      "SystemData"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      484
+      SrcBlock		      "Engine Model"
+      SrcPort		      3
+      DstBlock		      "DepFormat"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      501
+      SrcBlock		      "From14"
+      SrcPort		      1
+      DstBlock		      "Inp"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      576
+      SrcBlock		      "Demux"
+      SrcPort		      4
+      DstBlock		      "From9"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      577
+      SrcBlock		      "Demux"
+      SrcPort		      5
+      DstBlock		      "From12"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      578
+      SrcBlock		      "From15"
+      SrcPort		      1
+      DstBlock		      "Inp"
+      DstPort		      3
+    }
+    Annotation {
+      SID		      "74"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:14pt;\">Solver</span></p></body></html>"
+      Position		      [794, 666, 850, 691]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Interpreter	      "rich"
+      ZOrder		      -1
+    }
+    Annotation {
+      SID		      "72"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:11pt;\">Steady-State Inputs</span></p></body></html>"
+      Position		      [393, 399, 522, 418]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Interpreter	      "rich"
+      ZOrder		      -2
+    }
+    Annotation {
+      SID		      "73"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:11pt;\">Data Outputs</span></p></body></html>"
+      Position		      [977, 832, 1066, 851]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Interpreter	      "rich"
+      ZOrder		      1
+    }
+    Annotation {
+      SID		      "96"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-ind"
+      "ent:0; text-indent:0px;\"><span style=\" font-size:24pt;\">Steady-State AGTF30  </span></p>\n<p align=\"center\""
+      " style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:"
+      "0px;\"><span style=\" font-size:24pt;\">Advanced Geared TurboFan System</span></p></body></html>"
+      Position		      [455, 297, 966, 373]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Interpreter	      "rich"
+      ZOrder		      3
+    }
+  }
+}
+#Finite State Machines
+#
+#   Stateflow 80000005
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "AGTF30SysSS"
+    created		    "25-Jun-2015 13:29:25"
+    isLibrary		    0
+    firstTarget		    2
+    sfVersion		    80000005
+  }
+  target {
+    id			    2
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 0]
+  }
+}
