@@ -48,3 +48,7 @@ Auto plotting scripts:
 
 The AGTF30 makes use of T-MATS autoplotting scrips. These are defined within PlotDyn.m and PlotSS.m.
 After running the Dyn model or SS model, run the appropriate script to generate the appropriate plots.
+
+References:
+1) Jeffryes W. Chapman and Jonathan S. Litt. "Control Design for an Advanced Geared Turbofan Engine", 53rd AIAA/SAE/ASEE Joint Propulsion Conference, AIAA Propulsion and Energy Forum, (AIAA 2017-4820)
+2) Jones, S.M., Haller, W.J., Tong, M.T., “An N+3 Technology Level Reference Propulsion System”, NASA/TM-2017-219501, 2017. 
