@@ -1,9 +1,9 @@
 % To create all buses for the model call.
-% 1) Enter AGTF30_eng.mdl (make sure to create the MWS variable first with
+% 1) Enter AGTF30_eng.slx (make sure to create the MWS variable first with
 % setup_everything.
-% 2) remove bus outport from model (Sys_Out in top level of AGTF30_eng.mdl)
+% 2) remove bus outport from model (Sys_Out in top level of AGTF30_eng.slx)
 % 3) select bus creator you wish to generate the bus objects for (marked as
-% BusCreatorHere in AGTF30_eng.mdl -> AGT30F_eng/Engine/EngData)
+% BusCreatorHere in AGTF30_eng.slx -> AGT30F_eng/Engine/EngData)
 % 4) run the command below
 % 5) put outport back into model
 % 6) go into model to the bus editor.  Here there will be all the bus

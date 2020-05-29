@@ -255,9 +255,9 @@ switch(MWS.In.ICPoint)
         cd(MWS.top_level)
         assignin('base', 'MWS',MWS);
         fprintf(['Generating ICs with steady-state solver...\n']);
-        sim('AGTF30SysSS.mdl');
-        close_system('AGTF30SysSS.mdl');
-        close_system('AGTF30_eng.mdl');
+        sim('AGTF30SysSS.slx');
+        close_system('AGTF30SysSS.slx');
+        close_system('AGTF30_eng.slx');
         fprintf(['IC generation complete\n']);
         
         SSconv = out_SS.converged.Data(end);
