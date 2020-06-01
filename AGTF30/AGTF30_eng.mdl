@@ -34,7 +34,7 @@ Model {
       BusOutputAsStruct	      "off"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.304"
+    ComputedModelVersion    "1.306"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -56,7 +56,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [232.0, 31.0, 914.0, 729.0]
+      Location		      [232.0, 31.0, 1599.0, 881.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -80,9 +80,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[864.0, 555.0]
-	ZoomFactor		[3.0]
-	Offset			[135.77083333333334, 180.33333333333331]
+	Extents			[1547.0, 679.0]
+	ZoomFactor		[3.898203592814371]
+	Offset			[81.012768817204289, 181.40860215053763]
       }
     }
   }
@@ -92,9 +92,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "jwchapm2"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Mar 15 10:09:00 2018"
-  RTWModifiedTimeStamp	  413465309
-  ModelVersionFormat	  "1.%<AutoIncrement:304>"
+  LastModifiedDate	  "Fri May 29 16:22:44 2020"
+  RTWModifiedTimeStamp	  512644068
+  ModelVersionFormat	  "1.%<AutoIncrement:306>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -979,7 +979,7 @@ Model {
   }
   System {
     Name		    "AGTF30_eng"
-    Location		    [232, 31, 1146, 760]
+    Location		    [232, 31, 1831, 912]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -991,9 +991,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "300"
+    ZoomFactor		    "390"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "1272"
+    SIDHighWatermark	    "1275"
     Block {
       BlockType		      Inport
       Name		      "Sys_In"
@@ -1030,7 +1030,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Engine"
-	Location		[232, 31, 1146, 760]
+	Location		[232, 31, 1831, 912]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1042,7 +1042,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"35"
+	ZoomFactor		"45"
 	Block {
 	  BlockType		  Inport
 	  Name			  "Sys_In"
@@ -1080,14 +1080,15 @@ Model {
 	  SourceBlock		  "Lib_Turbo_Ambient_TMATS/Ambient"
 	  SourceType		  "T-MATS: Ambient Library Block"
 	  ContentPreviewEnabled	  off
-	  X_A_AltVec_M		  5000*[-1 0 1 2 3 4 5 6 7 8 9 10 12 14 16]
-	  T_A_TsVec_M		  [536.51 518.67 500.84 483.03 465.22 447.41 429.62 411.84 394.06 389.97 389.97 389.97 389.97 392.25 397.69]
-	  T_A_PsVec_M		  [17.554 14.696 12.228 10.108 8.297 6.759 5.461 4.373 3.468 2.73 2.149 1.692 1.049 0.651 0.406]
-	  AFARc_M		  0
-	  X_A_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-	  T_A_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-	  Y_A_TVec_M		  [300 10000]
-	  T_A_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+	  X_A_AltVec_M		  "5000*[-1 0 1 2 3 4 5 6 7 8 9 10 12 14 16]"
+	  T_A_TsVec_M		  "[536.51 518.67 500.84 483.03 465.22 447.41 429.62 411.84 394.06 389.97 389.97 389.97 389.97 392.25 "
+	  "397.69]"
+	  T_A_PsVec_M		  "[17.554 14.696 12.228 10.108 8.297 6.759 5.461 4.373 3.468 2.73 2.149 1.692 1.049 0.651 0.406]"
+	  AFARc_M		  "0"
+	  X_A_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+	  T_A_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+	  Y_A_TVec_M		  "[300 10000]"
+	  T_A_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 	}
 	Block {
 	  BlockType		  From
@@ -1236,22 +1237,22 @@ Model {
 	      SourceBlock	      "Lib_Turbo_Nozzle_TMATS/Nozzle"
 	      SourceType	      "T-MATS: Nozzle Library Block"
 	      ContentPreviewEnabled   off
-	      SWType_M		      Convergent
+	      SWType_M		      "Convergent"
 	      N_TArea_M		      "MWS.NozCor.Ath"
-	      N_EArea_M		      110.7
-	      N_FL_M		      0.00
-	      X_N_TtVec2_M	      [300 10000]
-	      T_N_TGArray_M	      [1 1]
-	      X_N_PEQPaVec_M	      [0 10000]
-	      T_N_CdThArray_M	      [1 1]
-	      T_N_CvArray_M	      [1 1]
+	      N_EArea_M		      "110.7"
+	      N_FL_M		      "0.00"
+	      X_N_TtVec2_M	      "[300 10000]"
+	      T_N_TGArray_M	      "[1 1]"
+	      X_N_PEQPaVec_M	      "[0 10000]"
+	      T_N_CdThArray_M	      "[1 1]"
+	      T_N_CvArray_M	      "[1 1]"
 	      CfgEn_M		      on
 	      T_N_CfgArray_M	      "[1 1]*MWS.NozCor.Cfg"
-	      X_N_FARVec_M	      [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-	      T_N_RtArray_M	      [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-	      Y_N_TtVec_M	      [300 10000]
-	      T_N_MAP_gammaArray_M    [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
-	      iDesign_M		      2
+	      X_N_FARVec_M	      "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+	      T_N_RtArray_M	      "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+	      Y_N_TtVec_M	      "[300 10000]"
+	      T_N_MAP_gammaArray_M    "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
+	      iDesign_M		      "2"
 	      WDes_M		      "MWS.NozCor.WDes"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
 	    }
@@ -1278,7 +1279,7 @@ Model {
 	      Ports		      [4, 4]
 	      Position		      [375, 318, 525, 467]
 	      ZOrder		      557
-	      LibraryVersion	      "1.485"
+	      LibraryVersion	      "1.492"
 	      SourceBlock	      "Lib_Turbo_TurbineNPSS_TMATS/Turbine_NPSS"
 	      SourceType	      "T-MATS: Turbine, NPSS Library Block"
 	      ContentPreviewEnabled   off
@@ -1290,17 +1291,18 @@ Model {
 	      s_T_Wc_M		      "MWS.LPT.s_Wc"
 	      s_T_PR_M		      "MWS.LPT.s_PR"
 	      s_T_Eff_M		      "MWS.LPT.s_Eff"
-	      ConfigNPSS_M	      1
-	      Scale_M		      none
+	      ConfigNPSS_M	      "1"
+	      Scale_M		      "none"
 	      CFlwEn_M		      on
 	      T_CoolFlwPos_M	      "MWS.LPT.CWPos"
-	      iDesign_M		      2
+	      iDesign_M		      "2"
 	      NcDes_M		      "MWS.LPT.NcMapDes"
 	      EffDes_M		      "MWS.LPT.EffDes"
 	      PRDes_M		      "MWS.LPT.PRMapDes"
 	      NDes_M		      "MWS.LPT.NDes"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
 	      BlkNm_M		      "double(gcb)"
+	      HP_M		      off
 	    }
 	    Block {
 	      BlockType		      Goto
@@ -1322,7 +1324,7 @@ Model {
 	      Port {
 		PortNumber		1
 		Name			"N_LPT"
-		PropagatedSignals	"Nmech"
+		PropagatedSignals	"Nmech (rpm)"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -1777,17 +1779,17 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [100, 584, 215, 636]
 		  ZOrder		  341
-		  LibraryVersion	  "1.360"
+		  LibraryVersion	  "1.361"
 		  SourceBlock		  "Lib_Turbo_StaticCalc_TMATS/StaticCalc"
 		  SourceType		  "T-MATS: Static Calculation Library Block"
 		  ContentPreviewEnabled	  off
 		  ST_M			  off
-		  Ath_M			  Ath_M
-		  MN_M			  0.45
-		  X_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-		  Y_TtVec_M		  [300 10000]
-		  T_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-		  T_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+		  Ath_M			  "Ath_M"
+		  MN_M			  "0.45"
+		  X_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+		  Y_TtVec_M		  "[300 10000]"
+		  T_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+		  T_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 		}
 		Block {
 		  BlockType		  Sum
@@ -2329,17 +2331,17 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [100, 584, 215, 636]
 		  ZOrder		  341
-		  LibraryVersion	  "1.360"
+		  LibraryVersion	  "1.361"
 		  SourceBlock		  "Lib_Turbo_StaticCalc_TMATS/StaticCalc"
 		  SourceType		  "T-MATS: Static Calculation Library Block"
 		  ContentPreviewEnabled	  off
 		  ST_M			  off
-		  Ath_M			  Ath_M
-		  MN_M			  0.45
-		  X_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-		  Y_TtVec_M		  [300 10000]
-		  T_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-		  T_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+		  Ath_M			  "Ath_M"
+		  MN_M			  "0.45"
+		  X_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+		  Y_TtVec_M		  "[300 10000]"
+		  T_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+		  T_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 		}
 		Block {
 		  BlockType		  Sum
@@ -2847,7 +2849,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:28pt;\">LPT to CoreNozzle</span></p></body></html>"
-	      Position		      [505, 19, 817, 64]
+	      Position		      [505, 19, 823, 64]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -2978,24 +2980,24 @@ Model {
 	      SourceBlock	      "Lib_Turbo_NozzleVar_TMATS/NozzleVar"
 	      SourceType	      "T-MATS: Nozzle,Var Library Block"
 	      ContentPreviewEnabled   off
-	      SWType_M		      1
-	      N_FL_M		      0.00
-	      X_N_TtVec2_M	      [300 10000]
-	      T_N_TGArray_M	      [1 1]
-	      X_N_PEQPaVec_M	      [0 10000]
-	      T_N_CdThArray_M	      [1 1]
-	      T_N_CvArray_M	      [1 1]
+	      SWType_M		      "1"
+	      N_FL_M		      "0.00"
+	      X_N_TtVec2_M	      "[300 10000]"
+	      T_N_TGArray_M	      "[1 1]"
+	      X_N_PEQPaVec_M	      "[0 10000]"
+	      T_N_CdThArray_M	      "[1 1]"
+	      T_N_CvArray_M	      "[1 1]"
 	      CfgEn_M		      on
 	      T_N_CfgArray_M	      "[1 1]* MWS.NozByp.Cfg"
-	      X_N_FARVec_M	      [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-	      T_N_RtArray_M	      [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-	      Y_N_TtVec_M	      [300 10000]
-	      T_N_MAP_gammaArray_M    [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
-	      iDesign_M		      2
+	      X_N_FARVec_M	      "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+	      T_N_RtArray_M	      "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+	      Y_N_TtVec_M	      "[300 10000]"
+	      T_N_MAP_gammaArray_M    "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
+	      iDesign_M		      "2"
 	      WDes_M		      "MWS.NozByp.WDes"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
-	      N_TArea_M		      0
-	      N_EArea_M		      0
+	      N_TArea_M		      "0"
+	      N_EArea_M		      "0"
 	    }
 	    Block {
 	      BlockType		      Terminator
@@ -3366,17 +3368,17 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [100, 584, 215, 636]
 		  ZOrder		  341
-		  LibraryVersion	  "1.360"
+		  LibraryVersion	  "1.361"
 		  SourceBlock		  "Lib_Turbo_StaticCalc_TMATS/StaticCalc"
 		  SourceType		  "T-MATS: Static Calculation Library Block"
 		  ContentPreviewEnabled	  off
 		  ST_M			  off
-		  Ath_M			  Ath_M
-		  MN_M			  0.45
-		  X_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-		  Y_TtVec_M		  [300 10000]
-		  T_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-		  T_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+		  Ath_M			  "Ath_M"
+		  MN_M			  "0.45"
+		  X_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+		  Y_TtVec_M		  "[300 10000]"
+		  T_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+		  T_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 		}
 		Block {
 		  BlockType		  Sum
@@ -3745,6 +3747,15 @@ Model {
 	  Value			  "MWS.Shaft.LPS_Eff"
 	}
 	Block {
+	  BlockType		  Constant
+	  Name			  "Constant1"
+	  SID			  "1273"
+	  Position		  [555, 587, 585, 603]
+	  ZOrder		  1858
+	  ShowName		  off
+	  Value			  "0"
+	}
+	Block {
 	  BlockType		  SubSystem
 	  Name			  "Core"
 	  SID			  "132"
@@ -3830,7 +3841,7 @@ Model {
 	      LHVEn_M		      on
 	      LHV_M		      "MWS.Burn.LHV"
 	      Eff_M		      "MWS.Burn.Eff"
-	      hFuel_M		      -1200
+	      hFuel_M		      "-1200"
 	      dPnormBurner_M	      "MWS.Burn.dPqP_dmd"
 	    }
 	    Block {
@@ -3890,12 +3901,12 @@ Model {
 	      Ports		      [3, 6]
 	      Position		      [195, 655, 350, 800]
 	      ZOrder		      342
-	      LibraryVersion	      "1.524"
+	      LibraryVersion	      "1.544"
 	      SourceBlock	      "Lib_Turbo_Compressor_TMATS/Compressor"
 	      SourceType	      "T-MATS: Compressor Library Block"
 	      ContentPreviewEnabled   off
 	      X_C_RlineVec_M	      "MWS.HPC.RVec"
-	      Z_C_AlphaVec_M	      1
+	      Z_C_AlphaVec_M	      "1"
 	      Y_C_Map_NcVec_M	      "MWS.HPC.NcVec"
 	      T_C_Map_WcArray_M	      "MWS.HPC.WcArray"
 	      T_C_Map_PRArray_M	      "MWS.HPC.PRArray"
@@ -3905,26 +3916,28 @@ Model {
 	      s_C_PR_M		      "MWS.HPC.s_PR"
 	      s_C_Eff_M		      "MWS.HPC.s_Eff"
 	      SL_M		      off
-	      Scale_M		      none
+	      Scale_M		      "none"
 	      CBLDEN_M		      off
-	      C_CBD_M		      0
-	      C_CBFht_M		      0.5
-	      C_CBFPt_M		      0.5
+	      C_CBD_M		      "0"
+	      C_CBFht_M		      "0.5"
+	      C_CBFPt_M		      "0.5"
 	      FBLDEN_M		      on
 	      C_FBD_M		      "MWS.HPC.FBD"
 	      C_BFht_M		      "MWS.HPC.BFht"
 	      C_BFPt_M		      "MWS.HPC.BFPt"
 	      DefSMEn_M		      off
-	      SRline_M		      1
+	      SMNEn_M		      off
+	      SRline_M		      "1"
 	      X_C_Map_WcSurgeVec_M    "MWS.HPC.SM_WcVec"
 	      T_C_Map_PRSurgeVec_M    "MWS.HPC.SM_PRVec"
-	      iDesign_M		      2
+	      iDesign_M		      "2"
 	      NcDes_M		      "MWS.HPC.NcDesMap"
 	      EffDes_M		      "MWS.HPC.EffDes"
 	      PRDes_M		      "MWS.HPC.PRDes"
 	      RlineDes_M	      "MWS.HPC.RlineDesMap"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
 	      BlkNm_M		      "double(gcb)"
+	      HP_M		      off
 	    }
 	    Block {
 	      BlockType		      From
@@ -4126,7 +4139,7 @@ Model {
 	      Ports		      [4, 4]
 	      Position		      [920, 621, 1070, 739]
 	      ZOrder		      556
-	      LibraryVersion	      "1.485"
+	      LibraryVersion	      "1.492"
 	      SourceBlock	      "Lib_Turbo_TurbineNPSS_TMATS/Turbine_NPSS"
 	      SourceType	      "T-MATS: Turbine, NPSS Library Block"
 	      ContentPreviewEnabled   off
@@ -4138,17 +4151,18 @@ Model {
 	      s_T_Wc_M		      "MWS.HPT.s_Wc"
 	      s_T_PR_M		      "MWS.HPT.s_PR"
 	      s_T_Eff_M		      "MWS.HPT.s_Eff"
-	      ConfigNPSS_M	      1
-	      Scale_M		      none
+	      ConfigNPSS_M	      "1"
+	      Scale_M		      "none"
 	      CFlwEn_M		      on
 	      T_CoolFlwPos_M	      "MWS.HPT.CWPos"
-	      iDesign_M		      2
+	      iDesign_M		      "2"
 	      NcDes_M		      "MWS.HPT.NcMapDes"
 	      EffDes_M		      "MWS.HPT.EffDes"
 	      PRDes_M		      "MWS.HPT.PRMapDes"
 	      NDes_M		      "MWS.HPT.NDes"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
 	      BlkNm_M		      "double(gcb)"
+	      HP_M		      off
 	    }
 	    Block {
 	      BlockType		      Goto
@@ -4212,7 +4226,7 @@ Model {
 	      Port {
 		PortNumber		1
 		Name			"N_HPC"
-		PropagatedSignals	"Nmech"
+		PropagatedSignals	"Nmech (rpm)"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -4229,7 +4243,7 @@ Model {
 	      Port {
 		PortNumber		1
 		Name			"N_HPT"
-		PropagatedSignals	"Nmech"
+		PropagatedSignals	"Nmech (rpm)"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -4556,17 +4570,17 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [155, 54, 270, 76]
 		  ZOrder		  1825
-		  LibraryVersion	  "1.360"
+		  LibraryVersion	  "1.361"
 		  SourceBlock		  "Lib_Turbo_StaticCalc_TMATS/StaticCalc"
 		  SourceType		  "T-MATS: Static Calculation Library Block"
 		  ContentPreviewEnabled	  off
 		  ST_M			  off
 		  Ath_M			  "MWS.HPC.Ath"
-		  MN_M			  0.3
-		  X_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-		  Y_TtVec_M		  [300 10000]
-		  T_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-		  T_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+		  MN_M			  "0.3"
+		  X_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+		  Y_TtVec_M		  "[300 10000]"
+		  T_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+		  T_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 		}
 		Block {
 		  BlockType		  Outport
@@ -5350,7 +5364,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:28pt;\">Engine Core</span></p></body></html>"
-	      Position		      [545, 484, 752, 529]
+	      Position		      [545, 484, 754, 529]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -5366,7 +5380,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:28pt;\">Inputs</span></p></body></html>"
-	      Position		      [205, 54, 307, 99]
+	      Position		      [205, 54, 308, 99]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -5382,7 +5396,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:28pt;\">Outputs</span></p></body></html>"
-	      Position		      [843, 19, 975, 64]
+	      Position		      [843, 19, 976, 64]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -7683,7 +7697,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:12pt;\">Station Parameter Data</span></p></body></html>"
-	      Position		      [270, 221, 437, 242]
+	      Position		      [270, 221, 440, 242]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -7812,12 +7826,12 @@ Model {
 	      Ports		      [3, 6]
 	      Position		      [480, 830, 635, 975]
 	      ZOrder		      812
-	      LibraryVersion	      "1.524"
+	      LibraryVersion	      "1.544"
 	      SourceBlock	      "Lib_Turbo_Compressor_TMATS/Compressor"
 	      SourceType	      "T-MATS: Compressor Library Block"
 	      ContentPreviewEnabled   off
 	      X_C_RlineVec_M	      "MWS.FAN.RVec"
-	      Z_C_AlphaVec_M	      1
+	      Z_C_AlphaVec_M	      "1"
 	      Y_C_Map_NcVec_M	      "MWS.FAN.NcVec"
 	      T_C_Map_WcArray_M	      "MWS.FAN.WcArray"
 	      T_C_Map_PRArray_M	      "MWS.FAN.PRArray"
@@ -7827,26 +7841,28 @@ Model {
 	      s_C_PR_M		      "MWS.FAN.s_PR"
 	      s_C_Eff_M		      "MWS.FAN.s_Eff"
 	      SL_M		      off
-	      Scale_M		      none
+	      Scale_M		      "none"
 	      CBLDEN_M		      off
-	      C_CBD_M		      0
-	      C_CBFht_M		      0.5
-	      C_CBFPt_M		      0.5
+	      C_CBD_M		      "0"
+	      C_CBFht_M		      "0.5"
+	      C_CBFPt_M		      "0.5"
 	      FBLDEN_M		      off
-	      C_FBD_M		      0
-	      C_BFht_M		      0.5
-	      C_BFPt_M		      0.5
+	      C_FBD_M		      "0"
+	      C_BFht_M		      "0.5"
+	      C_BFPt_M		      "0.5"
 	      DefSMEn_M		      off
-	      SRline_M		      1
+	      SMNEn_M		      off
+	      SRline_M		      "1"
 	      X_C_Map_WcSurgeVec_M    "MWS.FAN.SM_WcVec"
 	      T_C_Map_PRSurgeVec_M    "MWS.FAN.SM_PRVec"
-	      iDesign_M		      2
+	      iDesign_M		      "2"
 	      NcDes_M		      "MWS.FAN.NcDesMap"
 	      EffDes_M		      "MWS.FAN.EffDes"
 	      PRDes_M		      "MWS.FAN.PRDes"
 	      RlineDes_M	      "MWS.FAN.RlineDesMap"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
 	      BlkNm_M		      "double(gcb)"
+	      HP_M		      off
 	    }
 	    Block {
 	      BlockType		      Goto
@@ -7980,7 +7996,7 @@ Model {
 	      Port {
 		PortNumber		1
 		Name			"N_LPC"
-		PropagatedSignals	"Nmech"
+		PropagatedSignals	"Nmech (rpm)"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -8007,12 +8023,12 @@ Model {
 	      Ports		      [3, 6]
 	      Position		      [1325, 935, 1480, 1080]
 	      ZOrder		      813
-	      LibraryVersion	      "1.524"
+	      LibraryVersion	      "1.544"
 	      SourceBlock	      "Lib_Turbo_Compressor_TMATS/Compressor"
 	      SourceType	      "T-MATS: Compressor Library Block"
 	      ContentPreviewEnabled   off
 	      X_C_RlineVec_M	      "MWS.LPC.RVec"
-	      Z_C_AlphaVec_M	      1
+	      Z_C_AlphaVec_M	      "1"
 	      Y_C_Map_NcVec_M	      "MWS.LPC.NcVec"
 	      T_C_Map_WcArray_M	      "MWS.LPC.WcArray"
 	      T_C_Map_PRArray_M	      "MWS.LPC.PRArray"
@@ -8022,26 +8038,28 @@ Model {
 	      s_C_PR_M		      "MWS.LPC.s_PR"
 	      s_C_Eff_M		      "MWS.LPC.s_Eff"
 	      SL_M		      on
-	      Scale_M		      none
+	      Scale_M		      "none"
 	      CBLDEN_M		      off
-	      C_CBD_M		      0
-	      C_CBFht_M		      0.5
-	      C_CBFPt_M		      0.5
+	      C_CBD_M		      "0"
+	      C_CBFht_M		      "0.5"
+	      C_CBFPt_M		      "0.5"
 	      FBLDEN_M		      off
-	      C_FBD_M		      0
-	      C_BFht_M		      0.5
-	      C_BFPt_M		      0.5
+	      C_FBD_M		      "0"
+	      C_BFht_M		      "0.5"
+	      C_BFPt_M		      "0.5"
 	      DefSMEn_M		      off
-	      SRline_M		      1
+	      SMNEn_M		      off
+	      SRline_M		      "1"
 	      X_C_Map_WcSurgeVec_M    "MWS.LPC.SM_WcVec"
 	      T_C_Map_PRSurgeVec_M    "MWS.LPC.SM_PRVec"
-	      iDesign_M		      2
+	      iDesign_M		      "2"
 	      NcDes_M		      "MWS.LPC.NcDesMap"
 	      EffDes_M		      "MWS.LPC.EffDes"
 	      PRDes_M		      "MWS.LPC.PRDes"
 	      RlineDes_M	      "MWS.LPC.RlineDesMap"
 	      FVar_M		      "strcat('iDes_',stripchar_TMATS(gcb),'.bin')"
 	      BlkNm_M		      "double(gcb)"
+	      HP_M		      off
 	    }
 	    Block {
 	      BlockType		      Goto
@@ -8494,7 +8512,7 @@ Model {
 	      Ports		      [2, 2]
 	      Position		      [865, 880, 1070, 920]
 	      ZOrder		      337
-	      LibraryVersion	      "1.465"
+	      LibraryVersion	      "1.467"
 	      SourceBlock	      "Lib_Turbo_Splitter_TMATS/Splitter"
 	      SourceType	      "T-MATS: Splitter Library Block"
 	      ContentPreviewEnabled   off
@@ -8840,17 +8858,17 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [100, 584, 215, 636]
 		  ZOrder		  341
-		  LibraryVersion	  "1.360"
+		  LibraryVersion	  "1.361"
 		  SourceBlock		  "Lib_Turbo_StaticCalc_TMATS/StaticCalc"
 		  SourceType		  "T-MATS: Static Calculation Library Block"
 		  ContentPreviewEnabled	  off
 		  ST_M			  off
-		  Ath_M			  Ath_M
-		  MN_M			  0.45
-		  X_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-		  Y_TtVec_M		  [300 10000]
-		  T_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-		  T_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+		  Ath_M			  "Ath_M"
+		  MN_M			  "0.45"
+		  X_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+		  Y_TtVec_M		  "[300 10000]"
+		  T_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+		  T_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 		}
 		Block {
 		  BlockType		  Sum
@@ -9392,17 +9410,17 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [100, 584, 215, 636]
 		  ZOrder		  341
-		  LibraryVersion	  "1.360"
+		  LibraryVersion	  "1.361"
 		  SourceBlock		  "Lib_Turbo_StaticCalc_TMATS/StaticCalc"
 		  SourceType		  "T-MATS: Static Calculation Library Block"
 		  ContentPreviewEnabled	  off
 		  ST_M			  off
-		  Ath_M			  Ath_M
-		  MN_M			  0.45
-		  X_FARVec_M		  [0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]
-		  Y_TtVec_M		  [300 10000]
-		  T_RtArray_M		  [0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]
-		  T_gammaArray_M	  [ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]
+		  Ath_M			  "Ath_M"
+		  MN_M			  "0.45"
+		  X_FARVec_M		  "[0; 0.0050; 0.0100; 0.0150; 0.0200; 0.0250; 0.0300]"
+		  Y_TtVec_M		  "[300 10000]"
+		  T_RtArray_M		  "[0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686;    0.0686]"
+		  T_gammaArray_M	  "[ 1.4 1.4 1.4 1.4 1.4 1.4 1.4; 1.4 1.4 1.4 1.4 1.4 1.4 1.4]"
 		}
 		Block {
 		  BlockType		  Sum
@@ -10238,7 +10256,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:28pt;\">Inlet to LPC</span></p></body></html>"
-	      Position		      [957, 669, 1150, 714]
+	      Position		      [957, 669, 1154, 714]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -10254,7 +10272,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:22pt;\">Inputs</span></p></body></html>"
-	      Position		      [202, 20, 282, 56]
+	      Position		      [202, 20, 283, 56]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -10286,7 +10304,7 @@ Model {
 	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:22pt;\">Outputs</span></p></body></html>"
-	      Position		      [612, 20, 716, 56]
+	      Position		      [612, 20, 717, 56]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -10311,7 +10329,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "HPTNmech10"
 	  SID			  "287"
-	  Position		  [725, 583, 800, 597]
+	  Position		  [725, 608, 800, 622]
 	  ZOrder		  765
 	  ForegroundColor	  "magenta"
 	  ShowName		  off
@@ -10321,7 +10339,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "HPTNmech11"
 	  SID			  "286"
-	  Position		  [1335, 573, 1410, 587]
+	  Position		  [1335, 578, 1410, 592]
 	  ZOrder		  764
 	  ForegroundColor	  "magenta"
 	  ShowName		  off
@@ -10346,16 +10364,6 @@ Model {
 	  ForegroundColor	  "magenta"
 	  ShowName		  off
 	  GotoTag		  "HPS_Ndot"
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "HPTNmech14"
-	  SID			  "1051"
-	  Position		  [860, 583, 935, 597]
-	  ZOrder		  865
-	  ForegroundColor	  "red"
-	  ShowName		  off
-	  GotoTag		  "HPS_NIn"
 	}
 	Block {
 	  BlockType		  From
@@ -10391,7 +10399,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "HPTNmech3"
 	  SID			  "213"
-	  Position		  [725, 558, 800, 572]
+	  Position		  [725, 568, 800, 582]
 	  ZOrder		  691
 	  ForegroundColor	  "red"
 	  ShowName		  off
@@ -10401,7 +10409,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "HPTNmech4"
 	  SID			  "223"
-	  Position		  [1335, 548, 1410, 562]
+	  Position		  [1335, 553, 1410, 567]
 	  ZOrder		  701
 	  ForegroundColor	  "red"
 	  ShowName		  off
@@ -10421,7 +10429,7 @@ Model {
 	  BlockType		  From
 	  Name			  "HPTNmech6"
 	  SID			  "279"
-	  Position		  [500, 593, 575, 607]
+	  Position		  [485, 613, 560, 627]
 	  ZOrder		  757
 	  ForegroundColor	  "red"
 	  ShowName		  off
@@ -10431,7 +10439,7 @@ Model {
 	  BlockType		  From
 	  Name			  "HPTNmech7"
 	  SID			  "280"
-	  Position		  [1065, 623, 1140, 637]
+	  Position		  [1090, 598, 1165, 612]
 	  ZOrder		  758
 	  ForegroundColor	  "red"
 	  ShowName		  off
@@ -10461,10 +10469,10 @@ Model {
 	  BlockType		  Reference
 	  Name			  "HP_Shaft"
 	  SID			  "199"
-	  Ports			  [2, 2]
-	  Position		  [1205, 544, 1305, 591]
+	  Ports			  [3, 2]
+	  Position		  [1205, 546, 1305, 594]
 	  ZOrder		  677
-	  LibraryVersion	  "1.459"
+	  LibraryVersion	  "1.461"
 	  SourceBlock		  "Lib_Turbo_Shaft_TMATS/Shaft"
 	  SourceType		  "T-MATS: Shaft Library Block"
 	  ContentPreviewEnabled	  off
@@ -10814,7 +10822,7 @@ Model {
 	  BlockType		  From
 	  Name			  "LPC_TrqOutT8"
 	  SID			  "219"
-	  Position		  [1040, 529, 1120, 541]
+	  Position		  [1045, 504, 1125, 516]
 	  ZOrder		  697
 	  ForegroundColor	  "[1.000000, 0.333333, 0.498039]"
 	  ShowName		  off
@@ -10824,7 +10832,7 @@ Model {
 	  BlockType		  From
 	  Name			  "LPC_TrqOutT9"
 	  SID			  "220"
-	  Position		  [1040, 549, 1120, 561]
+	  Position		  [1045, 529, 1125, 541]
 	  ZOrder		  698
 	  ForegroundColor	  "[1.000000, 0.333333, 0.498039]"
 	  ShowName		  off
@@ -10834,10 +10842,10 @@ Model {
 	  BlockType		  Reference
 	  Name			  "LP_Shaft"
 	  SID			  "198"
-	  Ports			  [2, 2]
-	  Position		  [605, 554, 705, 601]
+	  Ports			  [3, 2]
+	  Position		  [605, 556, 705, 634]
 	  ZOrder		  676
-	  LibraryVersion	  "1.459"
+	  LibraryVersion	  "1.461"
 	  SourceBlock		  "Lib_Turbo_Shaft_TMATS/Shaft"
 	  SourceType		  "T-MATS: Shaft Library Block"
 	  ContentPreviewEnabled	  off
@@ -10858,11 +10866,11 @@ Model {
 	  BlockType		  Mux
 	  Name			  "Mux1"
 	  SID			  "221"
-	  Ports			  [3, 1]
-	  Position		  [1135, 521, 1140, 589]
+	  Ports			  [2, 1]
+	  Position		  [1140, 498, 1145, 547]
 	  ZOrder		  699
 	  ShowName		  off
-	  Inputs		  "3"
+	  Inputs		  "2"
 	  DisplayOption		  "bar"
 	}
 	Block {
@@ -11207,7 +11215,7 @@ Model {
 	  BlockType		  Constant
 	  Name			  "PwrDebit [HP]"
 	  SID			  "569"
-	  Position		  [865, 547, 920, 563]
+	  Position		  [1100, 562, 1155, 578]
 	  ZOrder		  822
 	  Value			  "350"
 	}
@@ -11246,139 +11254,6 @@ Model {
 	  ForegroundColor	  "darkGreen"
 	  ShowName		  off
 	  GotoTag		  "W"
-	}
-	Block {
-	  BlockType		  SubSystem
-	  Name			  "external torque"
-	  SID			  "570"
-	  Ports			  [2, 1]
-	  Position		  [970, 539, 1030, 606]
-	  ZOrder		  823
-	  RequestExecContextInheritance	off
-	  System {
-	    Name		    "external torque"
-	    Location		    [113, 60, 1536, 743]
-	    Open		    off
-	    ModelBrowserVisibility  off
-	    ModelBrowserWidth	    200
-	    ScreenColor		    "white"
-	    PaperOrientation	    "landscape"
-	    PaperPositionMode	    "auto"
-	    PaperType		    "usletter"
-	    PaperUnits		    "inches"
-	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
-	    TiledPageScale	    1
-	    ShowPageBoundaries	    off
-	    ZoomFactor		    "175"
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Power"
-	      SID		      "571"
-	      Position		      [20, 38, 50, 52]
-	      ZOrder		      822
-	      IconDisplay	      "Port number"
-	      Port {
-		PortNumber		1
-		Name			"HorsePower"
-		RTWStorageClass		"Auto"
-		DataLoggingNameMode	"SignalName"
-	      }
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Nmech"
-	      SID		      "572"
-	      Position		      [85, 118, 115, 132]
-	      ZOrder		      823
-	      Port		      "2"
-	      IconDisplay	      "Port number"
-	      Port {
-		PortNumber		1
-		Name			"RPM"
-		RTWStorageClass		"Auto"
-		DataLoggingNameMode	"SignalName"
-	      }
-	    }
-	    Block {
-	      BlockType		      Product
-	      Name		      "Divide"
-	      SID		      "568"
-	      Ports		      [3, 1]
-	      Position		      [280, 21, 300, 149]
-	      ZOrder		      821
-	      Inputs		      "**/"
-	      InputSameDT	      off
-	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-	      RndMeth		      "Floor"
-	      SaturateOnIntegerOverflow	off
-	    }
-	    Block {
-	      BlockType		      Gain
-	      Name		      "Gain"
-	      SID		      "595"
-	      Position		      [215, 30, 245, 60]
-	      ZOrder		      825
-	      Gain		      "-1"
-	      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
-	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-	      SaturateOnIntegerOverflow	off
-	    }
-	    Block {
-	      BlockType		      Constant
-	      Name		      "HP_per_RPMtoFT_LBF"
-	      SID		      "567"
-	      Position		      [170, 77, 225, 93]
-	      ZOrder		      820
-	      Value		      "5252.113"
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "Trq"
-	      SID		      "573"
-	      Position		      [320, 78, 350, 92]
-	      ZOrder		      824
-	      IconDisplay	      "Port number"
-	    }
-	    Line {
-	      ZOrder		      391
-	      SrcBlock		      "Divide"
-	      SrcPort		      1
-	      DstBlock		      "Trq"
-	      DstPort		      1
-	    }
-	    Line {
-	      Name		      "HorsePower"
-	      ZOrder		      389
-	      Labels		      [1, 1]
-	      SrcBlock		      "Power"
-	      SrcPort		      1
-	      DstBlock		      "Gain"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      386
-	      SrcBlock		      "HP_per_RPMtoFT_LBF"
-	      SrcPort		      1
-	      DstBlock		      "Divide"
-	      DstPort		      2
-	    }
-	    Line {
-	      Name		      "RPM"
-	      ZOrder		      390
-	      Labels		      [1, 1]
-	      SrcBlock		      "Nmech"
-	      SrcPort		      1
-	      DstBlock		      "Divide"
-	      DstPort		      3
-	    }
-	    Line {
-	      ZOrder		      395
-	      SrcBlock		      "Gain"
-	      SrcPort		      1
-	      DstBlock		      "Divide"
-	      DstPort		      1
-	    }
-	  }
 	}
 	Block {
 	  BlockType		  Outport
@@ -11575,7 +11450,7 @@ Model {
 	  ZOrder		  144
 	  SrcBlock		  "Mux"
 	  SrcPort		  1
-	  Points		  [28, 0; 0, 15]
+	  Points		  [28, 0; 0, 20]
 	  DstBlock		  "LP_Shaft"
 	  DstPort		  1
 	}
@@ -11611,6 +11486,7 @@ Model {
 	  ZOrder		  149
 	  SrcBlock		  "Mux1"
 	  SrcPort		  1
+	  Points		  [23, 0; 0, 30]
 	  DstBlock		  "HP_Shaft"
 	  DstPort		  1
 	}
@@ -11699,20 +11575,19 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  171
+	  ZOrder		  1076
 	  SrcBlock		  "HPTNmech7"
 	  SrcPort		  1
-	  Points		  [28, 0; 0, -50]
+	  Points		  [3, 0; 0, -20]
 	  DstBlock		  "HP_Shaft"
-	  DstPort		  2
+	  DstPort		  3
 	}
 	Line {
-	  ZOrder		  170
+	  ZOrder		  1075
 	  SrcBlock		  "HPTNmech6"
 	  SrcPort		  1
-	  Points		  [10, 0]
 	  DstBlock		  "LP_Shaft"
-	  DstPort		  2
+	  DstPort		  3
 	}
 	Line {
 	  ZOrder		  174
@@ -11939,25 +11814,11 @@ Model {
 	  DstPort		  7
 	}
 	Line {
-	  ZOrder		  389
+	  ZOrder		  1148
 	  SrcBlock		  "PwrDebit [HP]"
 	  SrcPort		  1
-	  DstBlock		  "external torque"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  984
-	  SrcBlock		  "HPTNmech14"
-	  SrcPort		  1
-	  DstBlock		  "external torque"
+	  DstBlock		  "HP_Shaft"
 	  DstPort		  2
-	}
-	Line {
-	  ZOrder		  564
-	  SrcBlock		  "external torque"
-	  SrcPort		  1
-	  DstBlock		  "Mux1"
-	  DstPort		  3
 	}
 	Line {
 	  ZOrder		  565
@@ -12208,6 +12069,13 @@ Model {
 	  DstBlock		  "EngData"
 	  DstPort		  8
 	}
+	Line {
+	  ZOrder		  1077
+	  SrcBlock		  "Constant1"
+	  SrcPort		  1
+	  DstBlock		  "LP_Shaft"
+	  DstPort		  2
+	}
 	Annotation {
 	  SID			  "192"
 	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
@@ -12216,7 +12084,7 @@ Model {
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:20pt; font-weight:600;\">GTF30F, </span><span style=\" font-size:20pt; font-weight:600;\">Geare"
 	  "d Turbofan</span><span style=\" font-size:20pt; font-weight:600;\"> Engine</span></p></body></html>"
-	  Position		  [560, 63, 999, 98]
+	  Position		  [560, 63, 1006, 98]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12232,7 +12100,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:20pt; font-weight:600;\">System Inputs</span></p></body></html>"
-	  Position		  [155, 768, 346, 803]
+	  Position		  [155, 768, 348, 803]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12248,7 +12116,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:20pt; font-weight:600;\">Solver I/O</span></p></body></html>"
-	  Position		  [559, 723, 690, 758]
+	  Position		  [559, 723, 693, 758]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12264,7 +12132,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:20pt; font-weight:600;\">System Data</span></p></body></html>"
-	  Position		  [1084, 1028, 1251, 1063]
+	  Position		  [1084, 1028, 1253, 1063]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12280,7 +12148,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:20pt; font-weight:600;\">Solver/Integrator I/O</span></p></body></html>"
-	  Position		  [481, 1008, 749, 1043]
+	  Position		  [481, 1008, 753, 1043]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12296,7 +12164,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:16pt; font-weight:600;\">Independents</span></p></body></html>"
-	  Position		  [450, 783, 590, 810]
+	  Position		  [450, 783, 591, 810]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12312,7 +12180,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:16pt; font-weight:600;\">Dependents</span></p></body></html>"
-	  Position		  [666, 783, 790, 810]
+	  Position		  [666, 783, 791, 810]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -12328,7 +12196,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:20pt; font-weight:600;\">Eng Calcs</span></p></body></html>"
-	  Position		  [1035, 780, 1170, 815]
+	  Position		  [1035, 780, 1172, 815]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off

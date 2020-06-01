@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.146"
+    ComputedModelVersion    "1.147"
     NumModelReferences	    1
     ModelReference {
       ModelRefBlockPath	      "AGTF30SysSS/Engine Model|AGTF30_eng"
@@ -56,7 +56,7 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1436.0, 590.0]
+	Extents			[1434.0, 562.0]
 	ZoomFactor		[0.77011494252873558]
 	Offset			[-28.529850746268721, 278.820895522388]
       }
@@ -68,9 +68,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "jwchapm2"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Mar 15 10:09:41 2018"
-  RTWModifiedTimeStamp	  397735186
-  ModelVersionFormat	  "1.%<AutoIncrement:146>"
+  LastModifiedDate	  "Fri May 29 16:26:48 2020"
+  RTWModifiedTimeStamp	  512670406
+  ModelVersionFormat	  "1.%<AutoIncrement:147>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -114,7 +114,7 @@ Model {
     $ObjectID		    6
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "SS_N3"
-    overrideMode_	    [0U]
+    overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
@@ -1830,7 +1830,7 @@ Model {
       ZOrder		      810
       ModelNameDialog	      "AGTF30_eng.mdl"
       SimulationMode	      "Normal"
-      ModelReferenceVersion   "1.304"
+      ModelReferenceVersion   "1.306"
       List {
 	ListType		InputPortNames
 	port0			"Sys_In"
@@ -4442,7 +4442,7 @@ Model {
       "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
       "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
       "t:0px;\"><span style=\" font-size:14pt;\">Solver</span></p></body></html>"
-      Position		      [794, 666, 850, 691]
+      Position		      [794, 666, 851, 691]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      off
       FixedWidth	      off
@@ -4492,7 +4492,7 @@ Model {
       "ent:0; text-indent:0px;\"><span style=\" font-size:24pt;\">Steady-State AGTF30  </span></p>\n<p align=\"center\""
       " style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:"
       "0px;\"><span style=\" font-size:24pt;\">Advanced Geared TurboFan System</span></p></body></html>"
-      Position		      [455, 297, 966, 373]
+      Position		      [455, 297, 971, 373]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      off
       FixedWidth	      off

@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.40"
+    ComputedModelVersion    "1.41"
     NumModelReferences	    1
     ModelReference {
       ModelRefBlockPath	      "AGTF30SysLin/EngineDW/Engine Model|AGTF30_eng"
@@ -32,7 +32,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [265.0, 141.0, 1271.0, 779.0]
+      Location		      [350.0, 211.0, 1271.0, 779.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -56,9 +56,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1221.0, 605.0]
-	ZoomFactor		[0.819940476190476]
-	Offset			[-126.84664246823968, -0.074410163339450719]
+	Extents			[1219.0, 577.0]
+	ZoomFactor		[0.81398809523809534]
+	Offset			[-132.2824497257767, -0.19926873857406235]
       }
     }
   }
@@ -68,9 +68,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "jwchapm2"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Mar 15 10:09:28 2018"
-  RTWModifiedTimeStamp	  397736754
-  ModelVersionFormat	  "1.%<AutoIncrement:40>"
+  LastModifiedDate	  "Fri May 29 16:26:34 2020"
+  RTWModifiedTimeStamp	  512670388
+  ModelVersionFormat	  "1.%<AutoIncrement:41>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -114,7 +114,7 @@ Model {
     $ObjectID		    6
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "AGTF30SysLin_new"
-    overrideMode_	    [0U]
+    overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
@@ -963,7 +963,7 @@ Model {
   }
   System {
     Name		    "AGTF30SysLin"
-    Location		    [265, 141, 1536, 920]
+    Location		    [350, 211, 1621, 990]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -975,7 +975,7 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "82"
+    ZoomFactor		    "81"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "134"
     Block {
@@ -1263,7 +1263,7 @@ Model {
       }
       System {
 	Name			"EngineDW"
-	Location		[2341, 202, 3612, 981]
+	Location		[350, 211, 1621, 990]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1275,7 +1275,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"175"
+	ZoomFactor		"89"
 	Block {
 	  BlockType		  Inport
 	  Name			  "EngSysInp"
@@ -1628,7 +1628,7 @@ Model {
 		  "yle></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p styl"
 		  "e=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">"
 		  "<span style=\" font-size:16pt;\">VAFN error with scheduled value</span></p></body></html>"
-		  Position		  [228, 201, 531, 228]
+		  Position		  [228, 201, 535, 228]
 		  InternalMargins	  [0, 0, 0, 0]
 		  FixedHeight		  off
 		  FixedWidth		  off
@@ -1883,7 +1883,7 @@ Model {
 		  "yle></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p styl"
 		  "e=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">"
 		  "<span style=\" font-size:16pt;\">VBV error with scheduled value</span></p></body></html>"
-		  Position		  [305, 223, 597, 250]
+		  Position		  [305, 223, 600, 250]
 		  InternalMargins	  [0, 0, 0, 0]
 		  FixedHeight		  off
 		  FixedWidth		  off
@@ -1979,7 +1979,7 @@ Model {
 	      "\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
 	      "-indent:0px;\"><span style=\" font-size:14pt;\">Compile engine internal and external dependents</span></p></bod"
 	      "y></html>"
-	      Position		      [203, 17, 616, 42]
+	      Position		      [203, 17, 617, 42]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      off
 	      FixedWidth	      off
@@ -2235,7 +2235,7 @@ Model {
 	  ZOrder		  810
 	  ModelNameDialog	  "AGTF30_eng.mdl"
 	  SimulationMode	  "Normal"
-	  ModelReferenceVersion	  "1.304"
+	  ModelReferenceVersion	  "1.306"
 	  List {
 	    ListType		    InputPortNames
 	    port0		    "Sys_In"
@@ -2385,15 +2385,15 @@ Model {
 	  Position		  [1080, 549, 1220, 611]
 	  ZOrder		  835
 	  BlockMirror		  on
-	  LibraryVersion	  "1.378"
+	  LibraryVersion	  "1.381"
 	  SourceBlock		  "Lib_Solve_IterNRSolverJC_TMATS/Iterative NR Solver w JacobianCalc"
 	  SourceType		  "T-MATS: Iterative NR Solver w Jacobian Calc Library Block"
 	  ContentPreviewEnabled	  off
 	  SJac_Per_M		  "[MWS.In.JPerDyn MWS.In.JPerSS(:,10:11)] "
 	  SNR_IC_M		  "[MWS.In.ICcom MWS.In.ICss(4:5)]"
 	  SNR_DX_M		  "MWS.In.dX"
-	  SNR_Mx_M		  100000
-	  SNR_Mn_M		  0.0001
+	  SNR_Mx_M		  "100000"
+	  SNR_Mn_M		  "0.0001"
 	  SJacobianAttempts_M	  "MWS.In.NRASS"
 	  Cond_Limits_M		  "MWS.In.Lim"
 	  Port {
@@ -2775,7 +2775,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:16pt;\">Engine Model Call</span></p></body></html>"
-	  Position		  [1069, 143, 1238, 170]
+	  Position		  [1069, 143, 1241, 170]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -2791,7 +2791,7 @@ Model {
 	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
 	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
 	  " style=\" font-size:14pt;\">Independent/Dependent Solver</span></p></body></html>"
-	  Position		  [1010, 419, 1277, 444]
+	  Position		  [1010, 419, 1280, 444]
 	  InternalMargins	  [0, 0, 0, 0]
 	  FixedHeight		  off
 	  FixedWidth		  off
@@ -3210,7 +3210,7 @@ Model {
       "0px;\"><span style=\" font-size:24pt;\">Advanced Geared Turbofan Engine System </span></p>\n<p align=\"center\" "
       "style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-bloc"
       "k-indent:0; text-indent:0px;\"><br /></p></body></html>"
-      Position		      [185, 17, 802, 106]
+      Position		      [185, 17, 807, 106]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      off
       FixedWidth	      off

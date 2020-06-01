@@ -51,7 +51,7 @@ MWS = setup_Actuators(MWS);
 
 %Shaft 
 % Low pressure shaft inertia slugs * ft2
-% MWS.Shaft.LPS_Inertia = (484135.-450102.)/32.2/144.; % old
+% MWS.Shaft.LPS_Inertia = (484135.-450102.)/32.2/144.; %old
 MWS.Shaft.LPS_Inertia = ((450102/(3.1*3.1)) + 17796 + 16237) /32.2/144.; 
 MWS.Shaft.LPS_Eff = 0.99;
 % High pressure shaft inertia, slugs*ft2

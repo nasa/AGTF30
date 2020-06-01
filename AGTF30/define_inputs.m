@@ -10,7 +10,7 @@ function MWS = define_inputs(MWS,inputs)
 
 MWS.In.Ts = 0.015;
 %% If UseExel is set to 1, set input vector to coincide with data
-% within "define_inputs.xlsx", note if any other inputs are being set by
+% within "define_inputs.slx", note if any other inputs are being set by
 % inputing to define_inputs.m, they will not be changed. Note: using Excel inputs
 % will greatly increase the run time of this script. When running this
 % script many times it is recommended to turn this feature off.

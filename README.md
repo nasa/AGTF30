@@ -6,15 +6,14 @@ of Thermodynamic Systems (T-MATS) to create a steady-state and
 dynamic engine model within MATLAB/Simulink. The engine model is 
 based upon a futuristic geared turbofan concept and allows steady-state 
 operation throughout the flight envelope. Dynamic operation is 
-currently limited to a manual inputs, however the simulation architecture 
-contains the framework for adding a full engine controller by the user.
+utilizes a baseline control system.
 Design tools included within the package include system linearization and
 automated plotting scripts.
 
 AGTF30 installation:
 1) Install Matlab and Simulink, Developed in MATLAB 2015aSP1
 2) Install the Toolbox for the Modeling and Analyais of Thermodyanmic Systems,
-developed with T-MATS version 1.2 (https://github.com/nasa/T-MATS/releases)
+developed with T-MATS version 1.3 (https://github.com/nasa/T-MATS/releases)
 
 Running AGTF30 simulation:
 1) Navigate to the AGTF30 folder
