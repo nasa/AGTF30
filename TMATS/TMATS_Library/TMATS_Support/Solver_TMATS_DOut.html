@@ -1,0 +1,104 @@
+<script type="text/javascript"
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<head>
+    <link rel="stylesheet" href="stylesheet_TMATS.css">
+</head>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<title>
+    T-MATS: Help for Data Output Library Block
+</title>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<body>
+    <h1>
+      T-MATS: Data Output Library Block
+    </h1>
+<hr>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="purpose">
+        Purpose
+</div>
+
+<p>
+    This block is used to save the input variable to a file at each time
+    step. However, it is important to note that the previously saved value
+    is overwritten each time.
+</p>
+
+<br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="background">
+        Background
+</div>
+
+<p>
+    To save the input variable, this block utilizes an additional script that
+    saves the value to the specified file. The file is specified by double clicking
+    the block and entering the name of the file.
+</p>
+
+<br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="instructions">
+        Instructions
+</div>
+
+<p>
+    To use this block:
+    <ul>
+        <li> Connect the input variable to the corresponding place on the block.
+        <li> Double click the block and specify the file to which the variable
+        should be saved.
+    </ul>
+</p>
+
+
+<br><hr><br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="inputs">
+       Data Output Inputs
+</div>
+
+<table>
+    <tr><th> Input </th><th>Description</th></tr>
+    <tr><td>Var</td><td>Variable to be saved </td></tr>
+</table>
+
+<br><br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="outputs">
+       Data Output Outputs
+</div>
+<p>
+    No direct outputs are required for this block since the input value
+    is saved to a file.
+</p>
+
+
+<br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="maskvars">
+        Output Mask Variables
+</div>
+
+<table>
+    <tr><th> Mask Variable </th><th> Description </th></tr>
+    <tr><td>FVar_M</td><td>File name for variable output</td></tr>
+</table>
+
+<br><br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+</body>
